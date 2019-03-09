@@ -1,0 +1,315 @@
+﻿<mah:MetroWindow  x:Class="Questor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:viewModel="clr-namespace:Questor.ViewModels"
+        xmlns:controls="clr-namespace:Questor.UI.Controls"
+        xmlns:quests="clr-namespace:Questor.ViewModels.Quests"
+        xmlns:quests1="clr-namespace:Questor.Models.Quests"
+        mc:Ignorable="d"
+        Icon="Images/Factorio.png"
+
+        d:DataContext="{d:DesignInstance IsDesignTimeCreatable=false, Type={x:Type viewModel:MainViewModel}}"
+        Title="Factorio questor" Height="450" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Campaign" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+        <Grid Grid.Row="2" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <Label Grid.Row="0" Grid.Column="0" Content="Campaign" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+            <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+                <Button Content="New" Command="{Binding NewCommand}" />
+                <Button Content="Load" Command="{Binding LoadCommand}" />
+                <Button Content="Save" Command="{Binding SaveCommand}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
+                <Button Content="Insert" Command="{Binding InsertCommand}"/>
+                <!-- <Button Content="Edit" Command="{Binding EditCommand}"/> -->
+                <Button Content="Delete" Command="{Binding DeleteCommand}"/>
+                <!-- <Button Content="Refresh" Command="{Binding RefreshCommand}"/> -->
+            </StackPanel>
+            
+            <controls:TreeViewEx  Grid.Row="3" Grid.Column="0"  ItemsSource="{Binding Models}" 
+                                  SelectedNodeItem="{Binding SelectedItem, Mode=TwoWay}"
+                                  Command="{Binding EditCommand}">
+                <TreeView.ItemContainerStyle>
+                    <Style TargetType="{x:Type TreeViewItem}">
+                        <Setter Property="IsExpanded" Value="True"/>
+                    </Style>
+                </TreeView.ItemContainerStyle>
+                <controls:TreeViewEx.Resources>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:CampaignViewModel}" ItemsSource="{Binding Items}">
+                        <TextBlock Text="{Binding Model.Name}" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:QuestLineCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
+                        <TextBlock Text="Questlines" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:QuestLineViewModel}" ItemsSource="{Binding ModelViewModels}">
+                        <TextBlock Text="{Binding Model.Name}" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:QuestViewModel}" ItemsSource="{Binding Items}">
+                        <TextBlock Text="{Binding Model.Name}" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:DependencyCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
+                        <TextBlock Text="Dependencies" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:DependencyViewModel}" >
+                        <TextBlock Text="{Binding Model.Name}" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:GoalCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
+                        <TextBlock Text="Goals" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:GoalViewModel}" >
+                        <TextBlock Text="{Binding Model.Name}" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:RewardCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
+                        <TextBlock Text="Rewards" />
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:RewardViewModel}" >
+                        <TextBlock Text="{Binding Model.Name}" />
+                    </HierarchicalDataTemplate>
+
+                </controls:TreeViewEx.Resources>
+
+            </controls:TreeViewEx>
+        </Grid>
+
+        <GridSplitter Grid.Column="1" Grid.Row="2"
+                      Width="3"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Stretch"
+                      ShowsPreview="True" />
+        <ContentControl Grid.Column="2" Grid.Row="2" Content="{Binding SelectedItem}">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type quests:CampaignViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Campaign" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+                            <Label Content="Description" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:QuestLineCollectionViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Questlines" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:QuestLineViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Questline" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+                            <Label Content="Description" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:QuestViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Quest" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+                            <Label Content="Description" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:DependencyCollectionViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Dependencies" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:DependencyViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Dependency" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+
+                            <Label Content="Function" Style="{StaticResource MetroLabel}"  />
+                            <ComboBox ItemsSource="{Binding Functions}" SelectedValue="{Binding Model.FunctionName}" 
+                                      SelectedItem="{Binding Function}"
+                                      DisplayMemberPath="Description" SelectedValuePath="Name" />
+
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
+
+                <DataTemplate DataType="{x:Type quests:GoalCollectionViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Goals" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:GoalViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Goal" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+                            
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+                            
+                            <Label Content="Description" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
+
+                            <Label Content="Function" Style="{StaticResource MetroLabel}"  />
+                            <ComboBox ItemsSource="{Binding Functions}" SelectedValue="{Binding Model.FunctionName}" 
+                                      SelectedItem="{Binding Function}"
+                                      DisplayMemberPath="Description" SelectedValuePath="Name" />
+
+                            <Label Content="Values" Style="{StaticResource MetroLabel}"  />
+                            <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
+
+                            <Label Content="Amount" Style="{StaticResource MetroLabel}"  />
+                            <mah:NumericUpDown Value="{Binding Model.Amount}"/>
+
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:RewardCollectionViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Rewards" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:RewardViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Reward" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+
+                            <Label Content="Description" Style="{StaticResource MetroLabel}"  />
+                            <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
+
+                            <Label Content="Function" Style="{StaticResource MetroLabel}"  />
+                            <ComboBox ItemsSource="{Binding Functions}" SelectedValue="{Binding Model.FunctionName}" 
+                                      SelectedItem="{Binding Function}"
+                                      DisplayMemberPath="Description" SelectedValuePath="Name" />
+
+                            <Label Content="Values" Style="{StaticResource MetroLabel}"  />
+                            <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
+
+                            <Label Content="Amount" Style="{StaticResource MetroLabel}"  />
+                            <mah:NumericUpDown Value="{Binding Model.Amount}"/>
+
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
+            </ContentControl.Resources>
+        </ContentControl>
+    </Grid>
+
+</mah:MetroWindow>

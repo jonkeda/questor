@@ -1,0 +1,38 @@
+﻿<controls:DialogWindow x:Class="Questor.Views.Other.ProgressWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:Questor.UI.Controls"
+        xmlns:other="clr-namespace:Questor.ViewModels.Other"
+        xmlns:converters="clr-namespace:Questor.UI.Converters"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance IsDesignTimeCreatable=false, Type={x:Type other:ProgressViewModel}}"
+        Height="200"
+        Width="600"
+        ShowCloseButton="False"
+        ShowMinButton="False"
+        ShowInTaskbar="False"
+        ShowMaxRestoreButton="False"
+        WindowStartupLocation="CenterOwner"
+        Icon="../../Images/scraper.png"
+        Title="Progress">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="1" Content="{Binding Label}" Style="{StaticResource MetroLabel}"/>
+
+        <TextBox Grid.Row="2" Text="{Binding Message}" Margin="3" Style="{StaticResource MetroLabelBox}" VerticalAlignment="Top"/>
+
+        <Button Grid.Row="3" Content="Cancel" Command="{Binding CancelCommand}" Width="100" HorizontalAlignment="Center"
+                Visibility="{Binding IsCancelable, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=Project, FallbackValue=Collapsed}" />
+
+    </Grid>
+
+</controls:DialogWindow>
