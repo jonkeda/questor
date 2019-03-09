@@ -7,6 +7,8 @@
         Item,
         Technology,
         Enemies,
-        Units
+        Units,
+        Recipe,
+        Force
     }
 }

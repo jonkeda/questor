@@ -71,6 +71,10 @@
     <Compile Include="Extensions\MouseEx.cs" />
     <Compile Include="Models\Contexts\CampaignContext.cs" />
     <Compile Include="Models\Prototypes\DataType.cs" />
+    <Compile Include="Models\Prototypes\Force.cs" />
+    <Compile Include="Models\Prototypes\ForceCollection.cs" />
+    <Compile Include="Models\Prototypes\Player.cs" />
+    <Compile Include="Models\Prototypes\PlayerCollection.cs" />
     <Compile Include="Models\Prototypes\Technology.cs" />
     <Compile Include="Models\Prototypes\Entity.cs" />
     <Compile Include="Models\Prototypes\EntityCollection.cs" />

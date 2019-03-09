@@ -12,7 +12,8 @@ namespace Questor.Models.Quests
                 new RewardFunction("items", "Item", DataType.Item),
                 new RewardFunction("technology", "Technology", DataType.Technology),
                 new RewardFunction("enable_technology", "Technology enabled", DataType.Technology),
-
+                new RewardFunction("recipe", "Recipe", DataType.Recipe),
+                new RewardFunction("force", "Force modifier", DataType.Force),
             };
         }
     }
