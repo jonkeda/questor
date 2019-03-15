@@ -1,0 +1,2618 @@
+﻿{
+  "technologies": [
+    { "name": "automation" },
+    { "name": "automation-2" },
+    { "name": "automation-3" },
+    { "name": "electronics" },
+    { "name": "fast-inserter" },
+    { "name": "advanced-electronics" },
+    { "name": "advanced-electronics-2" },
+    { "name": "circuit-network" },
+    { "name": "explosives" },
+    { "name": "logistics" },
+    { "name": "logistics-2" },
+    { "name": "logistics-3" },
+    { "name": "basic-optics" },
+    { "name": "optics" },
+    { "name": "laser" },
+    { "name": "solar-energy" },
+    { "name": "turrets" },
+    { "name": "laser-turrets" },
+    { "name": "stone-walls" },
+    { "name": "gates" },
+    { "name": "engine" },
+    { "name": "electric-engine" },
+    { "name": "lubricant" },
+    { "name": "battery" },
+    { "name": "landfill" },
+    { "name": "braking-force-1" },
+    { "name": "braking-force-2" },
+    { "name": "braking-force-3" },
+    { "name": "braking-force-4" },
+    { "name": "braking-force-5" },
+    { "name": "braking-force-6" },
+    { "name": "braking-force-7" },
+    { "name": "active-defense" },
+    { "name": "analyse-ship" },
+    { "name": "basic-electronics" },
+    { "name": "basic-logistics" },
+    { "name": "basic-mapping" },
+    { "name": "basic-military" },
+    { "name": "basic-mining" },
+    { "name": "chemical-science-pack" },
+    { "name": "demo-logistics" },
+    { "name": "demo-science-pack" },
+    { "name": "electric-inserter" },
+    { "name": "electric-mining" },
+    { "name": "improved-equipment" },
+    { "name": "logistic-science-pack" },
+    { "name": "military-science-pack" },
+    { "name": "passive-defense" },
+    { "name": "production-science-pack" },
+    { "name": "repair-tech" },
+    { "name": "space-science-pack" },
+    { "name": "steel-processing" },
+    { "name": "utility-science-pack" },
+    { "name": "advanced-material-processing" },
+    { "name": "steel-axe" },
+    { "name": "advanced-material-processing-2" },
+    { "name": "concrete" },
+    { "name": "electric-energy-accumulators-1" },
+    { "name": "electric-energy-distribution-1" },
+    { "name": "electric-energy-distribution-2" },
+    { "name": "railway" },
+    { "name": "fluid-wagon" },
+    { "name": "automated-rail-transportation" },
+    { "name": "rail-signals" },
+    { "name": "robotics" },
+    { "name": "construction-robotics" },
+    { "name": "logistic-robotics" },
+    { "name": "logistic-system" },
+    { "name": "personal-roboport-equipment" },
+    { "name": "personal-roboport-equipment-2" },
+    { "name": "character-logistic-slots-1" },
+    { "name": "character-logistic-slots-2" },
+    { "name": "character-logistic-slots-3" },
+    { "name": "character-logistic-slots-4" },
+    { "name": "character-logistic-slots-5" },
+    { "name": "character-logistic-slots-6" },
+    { "name": "character-logistic-trash-slots-1" },
+    { "name": "worker-robots-speed-1" },
+    { "name": "character-logistic-trash-slots-2" },
+    { "name": "worker-robots-speed-2" },
+    { "name": "auto-character-logistic-trash-slots" },
+    { "name": "character-logistic-trash-slots-3" },
+    { "name": "worker-robots-speed-3" },
+    { "name": "character-logistic-trash-slots-4" },
+    { "name": "worker-robots-speed-4" },
+    { "name": "character-logistic-trash-slots-5" },
+    { "name": "demo-productivity-1" },
+    { "name": "mining-productivity-1" },
+    { "name": "mining-productivity-2" },
+    { "name": "mining-productivity-3" },
+    { "name": "mining-productivity-4" },
+    { "name": "worker-robots-speed-5" },
+    { "name": "worker-robots-speed-6" },
+    { "name": "worker-robots-storage-1" },
+    { "name": "worker-robots-storage-2" },
+    { "name": "worker-robots-storage-3" },
+    { "name": "toolbelt" },
+    { "name": "research-speed-1" },
+    { "name": "research-speed-2" },
+    { "name": "research-speed-3" },
+    { "name": "research-speed-4" },
+    { "name": "research-speed-5" },
+    { "name": "research-speed-6" },
+    { "name": "stack-inserter" },
+    { "name": "inserter-capacity-bonus-1" },
+    { "name": "inserter-capacity-bonus-2" },
+    { "name": "inserter-capacity-bonus-3" },
+    { "name": "inserter-capacity-bonus-4" },
+    { "name": "inserter-capacity-bonus-5" },
+    { "name": "inserter-capacity-bonus-6" },
+    { "name": "inserter-capacity-bonus-7" },
+    { "name": "oil-processing" },
+    { "name": "fluid-handling" },
+    { "name": "advanced-oil-processing" },
+    { "name": "coal-liquefaction" },
+    { "name": "sulfur-processing" },
+    { "name": "plastics" },
+    { "name": "artillery" },
+    { "name": "military" },
+    { "name": "atomic-bomb" },
+    { "name": "military-2" },
+    { "name": "uranium-ammo" },
+    { "name": "military-3" },
+    { "name": "military-4" },
+    { "name": "automobilism" },
+    { "name": "flammables" },
+    { "name": "flamethrower" },
+    { "name": "tanks" },
+    { "name": "land-mine" },
+    { "name": "rocketry" },
+    { "name": "explosive-rocketry" },
+    { "name": "demo-shooting-speed-1" },
+    { "name": "energy-weapons-damage-1" },
+    { "name": "refined-flammables-1" },
+    { "name": "stronger-explosives-1" },
+    { "name": "weapon-shooting-speed-1" },
+    { "name": "artillery-shell-range-1" },
+    { "name": "artillery-shell-speed-1" },
+    { "name": "physical-projectile-damage-1" },
+    { "name": "energy-weapons-damage-2" },
+    { "name": "physical-projectile-damage-2" },
+    { "name": "refined-flammables-2" },
+    { "name": "stronger-explosives-2" },
+    { "name": "weapon-shooting-speed-2" },
+    { "name": "energy-weapons-damage-3" },
+    { "name": "physical-projectile-damage-3" },
+    { "name": "refined-flammables-3" },
+    { "name": "stronger-explosives-3" },
+    { "name": "weapon-shooting-speed-3" },
+    { "name": "energy-weapons-damage-4" },
+    { "name": "physical-projectile-damage-4" },
+    { "name": "refined-flammables-4" },
+    { "name": "stronger-explosives-4" },
+    { "name": "weapon-shooting-speed-4" },
+    { "name": "energy-weapons-damage-5" },
+    { "name": "physical-projectile-damage-5" },
+    { "name": "refined-flammables-5" },
+    { "name": "stronger-explosives-5" },
+    { "name": "weapon-shooting-speed-5" },
+    { "name": "energy-weapons-damage-6" },
+    { "name": "energy-weapons-damage-7" },
+    { "name": "physical-projectile-damage-6" },
+    { "name": "physical-projectile-damage-7" },
+    { "name": "refined-flammables-6" },
+    { "name": "refined-flammables-7" },
+    { "name": "stronger-explosives-6" },
+    { "name": "stronger-explosives-7" },
+    { "name": "weapon-shooting-speed-6" },
+    { "name": "laser-turret-speed-1" },
+    { "name": "laser-turret-speed-2" },
+    { "name": "laser-turret-speed-3" },
+    { "name": "laser-turret-speed-4" },
+    { "name": "laser-turret-speed-5" },
+    { "name": "laser-turret-speed-6" },
+    { "name": "laser-turret-speed-7" },
+    { "name": "combat-robotics" },
+    { "name": "combat-robotics-2" },
+    { "name": "combat-robotics-3" },
+    { "name": "follower-robot-count-1" },
+    { "name": "follower-robot-count-2" },
+    { "name": "follower-robot-count-3" },
+    { "name": "follower-robot-count-4" },
+    { "name": "follower-robot-count-5" },
+    { "name": "follower-robot-count-6" },
+    { "name": "follower-robot-count-7" },
+    { "name": "kovarex-enrichment-process" },
+    { "name": "nuclear-fuel-reprocessing" },
+    { "name": "nuclear-power" },
+    { "name": "uranium-processing" },
+    { "name": "heavy-armor" },
+    { "name": "modular-armor" },
+    { "name": "power-armor" },
+    { "name": "power-armor-2" },
+    { "name": "energy-shield-equipment" },
+    { "name": "energy-shield-mk2-equipment" },
+    { "name": "night-vision-equipment" },
+    { "name": "belt-immunity-equipment" },
+    { "name": "exoskeleton-equipment" },
+    { "name": "battery-equipment" },
+    { "name": "battery-mk2-equipment" },
+    { "name": "solar-panel-equipment" },
+    { "name": "fusion-reactor-equipment" },
+    { "name": "personal-laser-defense-equipment" },
+    { "name": "discharge-defense-equipment" },
+    { "name": "modules" },
+    { "name": "speed-module" },
+    { "name": "speed-module-2" },
+    { "name": "speed-module-3" },
+    { "name": "productivity-module" },
+    { "name": "productivity-module-2" },
+    { "name": "productivity-module-3" },
+    { "name": "effectivity-module" },
+    { "name": "effectivity-module-2" },
+    { "name": "effectivity-module-3" },
+    { "name": "effect-transmission" },
+    { "name": "low-density-structure" },
+    { "name": "rocket-control-unit" },
+    { "name": "rocket-fuel" },
+    { "name": "rocket-silo" },
+    { "name": "cliff-explosives" }
+  ],
+  "recipes": [
+    {
+      "name": "accumulator",
+      "category": "crafting"
+    },
+    {
+      "name": "advanced-circuit",
+      "category": "crafting"
+    },
+    {
+      "name": "arithmetic-combinator",
+      "category": "crafting"
+    },
+    {
+      "name": "artillery-shell",
+      "category": "crafting"
+    },
+    {
+      "name": "artillery-targeting-remote",
+      "category": "crafting"
+    },
+    {
+      "name": "artillery-turret",
+      "category": "crafting"
+    },
+    {
+      "name": "artillery-wagon",
+      "category": "crafting"
+    },
+    {
+      "name": "assembling-machine-1",
+      "category": "crafting"
+    },
+    {
+      "name": "assembling-machine-2",
+      "category": "crafting"
+    },
+    {
+      "name": "assembling-machine-3",
+      "category": "crafting"
+    },
+    {
+      "name": "atomic-bomb",
+      "category": "crafting"
+    },
+    {
+      "name": "automation-science-pack",
+      "category": "crafting"
+    },
+    {
+      "name": "battery",
+      "category": "chemistry"
+    },
+    {
+      "name": "battery-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "battery-mk2-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "beacon",
+      "category": "crafting"
+    },
+    {
+      "name": "belt-immunity-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "big-electric-pole",
+      "category": "crafting"
+    },
+    {
+      "name": "boiler",
+      "category": "crafting"
+    },
+    {
+      "name": "burner-inserter",
+      "category": "crafting"
+    },
+    {
+      "name": "burner-mining-drill",
+      "category": "crafting"
+    },
+    {
+      "name": "cannon-shell",
+      "category": "crafting"
+    },
+    {
+      "name": "car",
+      "category": "crafting"
+    },
+    {
+      "name": "cargo-wagon",
+      "category": "crafting"
+    },
+    {
+      "name": "centrifuge",
+      "category": "crafting"
+    },
+    {
+      "name": "chemical-plant",
+      "category": "crafting"
+    },
+    {
+      "name": "chemical-science-pack",
+      "category": "crafting"
+    },
+    {
+      "name": "cliff-explosives",
+      "category": "crafting"
+    },
+    {
+      "name": "cluster-grenade",
+      "category": "crafting"
+    },
+    {
+      "name": "combat-shotgun",
+      "category": "crafting"
+    },
+    {
+      "name": "concrete",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "constant-combinator",
+      "category": "crafting"
+    },
+    {
+      "name": "construction-robot",
+      "category": "crafting"
+    },
+    {
+      "name": "copper-cable",
+      "category": "crafting"
+    },
+    {
+      "name": "copper-plate",
+      "category": "smelting"
+    },
+    {
+      "name": "decider-combinator",
+      "category": "crafting"
+    },
+    {
+      "name": "defender-capsule",
+      "category": "crafting"
+    },
+    {
+      "name": "destroyer-capsule",
+      "category": "crafting"
+    },
+    {
+      "name": "discharge-defense-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "discharge-defense-remote",
+      "category": "crafting"
+    },
+    {
+      "name": "distractor-capsule",
+      "category": "crafting"
+    },
+    {
+      "name": "effectivity-module",
+      "category": "crafting"
+    },
+    {
+      "name": "effectivity-module-2",
+      "category": "crafting"
+    },
+    {
+      "name": "effectivity-module-3",
+      "category": "crafting"
+    },
+    {
+      "name": "electric-energy-interface",
+      "category": "crafting"
+    },
+    {
+      "name": "electric-engine-unit",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "electric-furnace",
+      "category": "crafting"
+    },
+    {
+      "name": "electric-mining-drill",
+      "category": "crafting"
+    },
+    {
+      "name": "electronic-circuit",
+      "category": "crafting"
+    },
+    {
+      "name": "empty-barrel",
+      "category": "crafting"
+    },
+    {
+      "name": "energy-shield-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "energy-shield-mk2-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "engine-unit",
+      "category": "advanced-crafting"
+    },
+    {
+      "name": "exoskeleton-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "explosive-cannon-shell",
+      "category": "crafting"
+    },
+    {
+      "name": "explosive-rocket",
+      "category": "crafting"
+    },
+    {
+      "name": "explosive-uranium-cannon-shell",
+      "category": "crafting"
+    },
+    {
+      "name": "explosives",
+      "category": "chemistry"
+    },
+    {
+      "name": "express-loader",
+      "category": "crafting"
+    },
+    {
+      "name": "express-splitter",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "express-transport-belt",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "express-underground-belt",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "fast-inserter",
+      "category": "crafting"
+    },
+    {
+      "name": "fast-loader",
+      "category": "crafting"
+    },
+    {
+      "name": "fast-splitter",
+      "category": "crafting"
+    },
+    {
+      "name": "fast-transport-belt",
+      "category": "crafting"
+    },
+    {
+      "name": "fast-underground-belt",
+      "category": "crafting"
+    },
+    {
+      "name": "filter-inserter",
+      "category": "crafting"
+    },
+    {
+      "name": "firearm-magazine",
+      "category": "crafting"
+    },
+    {
+      "name": "flamethrower",
+      "category": "crafting"
+    },
+    {
+      "name": "flamethrower-ammo",
+      "category": "chemistry"
+    },
+    {
+      "name": "flamethrower-turret",
+      "category": "crafting"
+    },
+    {
+      "name": "fluid-wagon",
+      "category": "crafting"
+    },
+    {
+      "name": "flying-robot-frame",
+      "category": "crafting"
+    },
+    {
+      "name": "fusion-reactor-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "gate",
+      "category": "crafting"
+    },
+    {
+      "name": "green-wire",
+      "category": "crafting"
+    },
+    {
+      "name": "grenade",
+      "category": "crafting"
+    },
+    {
+      "name": "gun-turret",
+      "category": "crafting"
+    },
+    {
+      "name": "hazard-concrete",
+      "category": "crafting"
+    },
+    {
+      "name": "heat-exchanger",
+      "category": "crafting"
+    },
+    {
+      "name": "heat-pipe",
+      "category": "crafting"
+    },
+    {
+      "name": "heavy-armor",
+      "category": "crafting"
+    },
+    {
+      "name": "inserter",
+      "category": "crafting"
+    },
+    {
+      "name": "iron-chest",
+      "category": "crafting"
+    },
+    {
+      "name": "iron-gear-wheel",
+      "category": "crafting"
+    },
+    {
+      "name": "iron-plate",
+      "category": "smelting"
+    },
+    {
+      "name": "iron-stick",
+      "category": "crafting"
+    },
+    {
+      "name": "lab",
+      "category": "crafting"
+    },
+    {
+      "name": "land-mine",
+      "category": "crafting"
+    },
+    {
+      "name": "landfill",
+      "category": "crafting"
+    },
+    {
+      "name": "laser-turret",
+      "category": "crafting"
+    },
+    {
+      "name": "light-armor",
+      "category": "crafting"
+    },
+    {
+      "name": "loader",
+      "category": "crafting"
+    },
+    {
+      "name": "locomotive",
+      "category": "crafting"
+    },
+    {
+      "name": "logistic-chest-active-provider",
+      "category": "crafting"
+    },
+    {
+      "name": "logistic-chest-buffer",
+      "category": "crafting"
+    },
+    {
+      "name": "logistic-chest-passive-provider",
+      "category": "crafting"
+    },
+    {
+      "name": "logistic-chest-requester",
+      "category": "crafting"
+    },
+    {
+      "name": "logistic-chest-storage",
+      "category": "crafting"
+    },
+    {
+      "name": "logistic-robot",
+      "category": "crafting"
+    },
+    {
+      "name": "logistic-science-pack",
+      "category": "crafting"
+    },
+    {
+      "name": "long-handed-inserter",
+      "category": "crafting"
+    },
+    {
+      "name": "low-density-structure",
+      "category": "crafting"
+    },
+    {
+      "name": "lubricant",
+      "category": "chemistry"
+    },
+    {
+      "name": "medium-electric-pole",
+      "category": "crafting"
+    },
+    {
+      "name": "military-science-pack",
+      "category": "crafting"
+    },
+    {
+      "name": "modular-armor",
+      "category": "crafting"
+    },
+    {
+      "name": "night-vision-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "nuclear-fuel",
+      "category": "centrifuging"
+    },
+    {
+      "name": "nuclear-reactor",
+      "category": "crafting"
+    },
+    {
+      "name": "offshore-pump",
+      "category": "crafting"
+    },
+    {
+      "name": "oil-refinery",
+      "category": "crafting"
+    },
+    {
+      "name": "personal-laser-defense-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "personal-roboport-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "personal-roboport-mk2-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "piercing-rounds-magazine",
+      "category": "crafting"
+    },
+    {
+      "name": "piercing-shotgun-shell",
+      "category": "crafting"
+    },
+    {
+      "name": "pipe",
+      "category": "crafting"
+    },
+    {
+      "name": "pipe-to-ground",
+      "category": "crafting"
+    },
+    {
+      "name": "pistol",
+      "category": "crafting"
+    },
+    {
+      "name": "plastic-bar",
+      "category": "chemistry"
+    },
+    {
+      "name": "player-port",
+      "category": "crafting"
+    },
+    {
+      "name": "poison-capsule",
+      "category": "crafting"
+    },
+    {
+      "name": "power-armor",
+      "category": "crafting"
+    },
+    {
+      "name": "power-armor-mk2",
+      "category": "crafting"
+    },
+    {
+      "name": "power-switch",
+      "category": "crafting"
+    },
+    {
+      "name": "processing-unit",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "production-science-pack",
+      "category": "crafting"
+    },
+    {
+      "name": "productivity-module",
+      "category": "crafting"
+    },
+    {
+      "name": "productivity-module-2",
+      "category": "crafting"
+    },
+    {
+      "name": "productivity-module-3",
+      "category": "crafting"
+    },
+    {
+      "name": "programmable-speaker",
+      "category": "crafting"
+    },
+    {
+      "name": "pump",
+      "category": "crafting"
+    },
+    {
+      "name": "pumpjack",
+      "category": "crafting"
+    },
+    {
+      "name": "radar",
+      "category": "crafting"
+    },
+    {
+      "name": "rail",
+      "category": "crafting"
+    },
+    {
+      "name": "rail-chain-signal",
+      "category": "crafting"
+    },
+    {
+      "name": "rail-signal",
+      "category": "crafting"
+    },
+    {
+      "name": "railgun",
+      "category": "crafting"
+    },
+    {
+      "name": "railgun-dart",
+      "category": "crafting"
+    },
+    {
+      "name": "red-wire",
+      "category": "crafting"
+    },
+    {
+      "name": "refined-concrete",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "refined-hazard-concrete",
+      "category": "crafting"
+    },
+    {
+      "name": "repair-pack",
+      "category": "crafting"
+    },
+    {
+      "name": "roboport",
+      "category": "crafting"
+    },
+    {
+      "name": "rocket",
+      "category": "crafting"
+    },
+    {
+      "name": "rocket-control-unit",
+      "category": "crafting"
+    },
+    {
+      "name": "rocket-fuel",
+      "category": "crafting"
+    },
+    {
+      "name": "rocket-launcher",
+      "category": "crafting"
+    },
+    {
+      "name": "rocket-part",
+      "category": "rocket-building"
+    },
+    {
+      "name": "rocket-silo",
+      "category": "crafting"
+    },
+    {
+      "name": "satellite",
+      "category": "crafting"
+    },
+    {
+      "name": "shotgun",
+      "category": "crafting"
+    },
+    {
+      "name": "shotgun-shell",
+      "category": "crafting"
+    },
+    {
+      "name": "slowdown-capsule",
+      "category": "crafting"
+    },
+    {
+      "name": "small-electric-pole",
+      "category": "crafting"
+    },
+    {
+      "name": "small-lamp",
+      "category": "crafting"
+    },
+    {
+      "name": "small-plane",
+      "category": "crafting"
+    },
+    {
+      "name": "solar-panel",
+      "category": "crafting"
+    },
+    {
+      "name": "solar-panel-equipment",
+      "category": "crafting"
+    },
+    {
+      "name": "speed-module",
+      "category": "crafting"
+    },
+    {
+      "name": "speed-module-2",
+      "category": "crafting"
+    },
+    {
+      "name": "speed-module-3",
+      "category": "crafting"
+    },
+    {
+      "name": "splitter",
+      "category": "crafting"
+    },
+    {
+      "name": "stack-filter-inserter",
+      "category": "crafting"
+    },
+    {
+      "name": "stack-inserter",
+      "category": "crafting"
+    },
+    {
+      "name": "steam-engine",
+      "category": "crafting"
+    },
+    {
+      "name": "steam-turbine",
+      "category": "crafting"
+    },
+    {
+      "name": "steel-chest",
+      "category": "crafting"
+    },
+    {
+      "name": "steel-furnace",
+      "category": "crafting"
+    },
+    {
+      "name": "steel-plate",
+      "category": "smelting"
+    },
+    {
+      "name": "stone-brick",
+      "category": "smelting"
+    },
+    {
+      "name": "stone-furnace",
+      "category": "crafting"
+    },
+    {
+      "name": "stone-wall",
+      "category": "crafting"
+    },
+    {
+      "name": "storage-tank",
+      "category": "crafting"
+    },
+    {
+      "name": "submachine-gun",
+      "category": "crafting"
+    },
+    {
+      "name": "substation",
+      "category": "crafting"
+    },
+    {
+      "name": "sulfur",
+      "category": "chemistry"
+    },
+    {
+      "name": "sulfuric-acid",
+      "category": "chemistry"
+    },
+    {
+      "name": "tank",
+      "category": "crafting"
+    },
+    {
+      "name": "train-stop",
+      "category": "crafting"
+    },
+    {
+      "name": "transport-belt",
+      "category": "crafting"
+    },
+    {
+      "name": "underground-belt",
+      "category": "crafting"
+    },
+    {
+      "name": "uranium-cannon-shell",
+      "category": "crafting"
+    },
+    {
+      "name": "uranium-fuel-cell",
+      "category": "crafting"
+    },
+    {
+      "name": "uranium-rounds-magazine",
+      "category": "crafting"
+    },
+    {
+      "name": "utility-science-pack",
+      "category": "crafting"
+    },
+    {
+      "name": "wooden-chest",
+      "category": "crafting"
+    },
+    {
+      "name": "basic-oil-processing",
+      "category": "oil-processing"
+    },
+    {
+      "name": "advanced-oil-processing",
+      "category": "oil-processing"
+    },
+    {
+      "name": "coal-liquefaction",
+      "category": "oil-processing"
+    },
+    {
+      "name": "fill-crude-oil-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "fill-heavy-oil-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "fill-light-oil-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "fill-lubricant-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "fill-petroleum-gas-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "fill-sulfuric-acid-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "fill-water-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "heavy-oil-cracking",
+      "category": "chemistry"
+    },
+    {
+      "name": "light-oil-cracking",
+      "category": "chemistry"
+    },
+    {
+      "name": "solid-fuel-from-light-oil",
+      "category": "chemistry"
+    },
+    {
+      "name": "solid-fuel-from-petroleum-gas",
+      "category": "chemistry"
+    },
+    {
+      "name": "solid-fuel-from-heavy-oil",
+      "category": "chemistry"
+    },
+    {
+      "name": "empty-crude-oil-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "empty-heavy-oil-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "empty-light-oil-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "empty-lubricant-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "empty-petroleum-gas-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "empty-sulfuric-acid-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "empty-water-barrel",
+      "category": "crafting-with-fluid"
+    },
+    {
+      "name": "uranium-processing",
+      "category": "centrifuging"
+    },
+    {
+      "name": "nuclear-fuel-reprocessing",
+      "category": "centrifuging"
+    },
+    {
+      "name": "kovarex-enrichment-process",
+      "category": "centrifuging"
+    }
+  ],
+  "entities": [
+    {
+      "type": "container",
+      "name": "wooden-chest"
+    },
+    {
+      "type": "container",
+      "name": "iron-chest"
+    },
+    {
+      "type": "container",
+      "name": "steel-chest"
+    },
+    {
+      "type": "container",
+      "name": "compilatron-chest"
+    },
+    {
+      "type": "storage-tank",
+      "name": "storage-tank"
+    },
+    {
+      "type": "transport-belt",
+      "name": "transport-belt"
+    },
+    {
+      "type": "transport-belt",
+      "name": "fast-transport-belt"
+    },
+    {
+      "type": "transport-belt",
+      "name": "express-transport-belt"
+    },
+    {
+      "type": "underground-belt",
+      "name": "underground-belt"
+    },
+    {
+      "type": "underground-belt",
+      "name": "fast-underground-belt"
+    },
+    {
+      "type": "underground-belt",
+      "name": "express-underground-belt"
+    },
+    {
+      "type": "splitter",
+      "name": "splitter"
+    },
+    {
+      "type": "splitter",
+      "name": "fast-splitter"
+    },
+    {
+      "type": "splitter",
+      "name": "express-splitter"
+    },
+    {
+      "type": "loader",
+      "name": "loader"
+    },
+    {
+      "type": "loader",
+      "name": "fast-loader"
+    },
+    {
+      "type": "loader",
+      "name": "express-loader"
+    },
+    {
+      "type": "inserter",
+      "name": "burner-inserter"
+    },
+    {
+      "type": "inserter",
+      "name": "inserter"
+    },
+    {
+      "type": "inserter",
+      "name": "long-handed-inserter"
+    },
+    {
+      "type": "inserter",
+      "name": "fast-inserter"
+    },
+    {
+      "type": "inserter",
+      "name": "filter-inserter"
+    },
+    {
+      "type": "inserter",
+      "name": "stack-inserter"
+    },
+    {
+      "type": "inserter",
+      "name": "stack-filter-inserter"
+    },
+    {
+      "type": "electric-pole",
+      "name": "small-electric-pole"
+    },
+    {
+      "type": "electric-pole",
+      "name": "medium-electric-pole"
+    },
+    {
+      "type": "electric-pole",
+      "name": "big-electric-pole"
+    },
+    {
+      "type": "electric-pole",
+      "name": "substation"
+    },
+    {
+      "type": "pipe",
+      "name": "pipe"
+    },
+    {
+      "type": "pipe-to-ground",
+      "name": "pipe-to-ground"
+    },
+    {
+      "type": "pump",
+      "name": "pump"
+    },
+    {
+      "type": "curved-rail",
+      "name": "curved-rail"
+    },
+    {
+      "type": "straight-rail",
+      "name": "straight-rail"
+    },
+    {
+      "type": "train-stop",
+      "name": "train-stop"
+    },
+    {
+      "type": "rail-signal",
+      "name": "rail-signal"
+    },
+    {
+      "type": "rail-chain-signal",
+      "name": "rail-chain-signal"
+    },
+    {
+      "type": "locomotive",
+      "name": "locomotive"
+    },
+    {
+      "type": "cargo-wagon",
+      "name": "cargo-wagon"
+    },
+    {
+      "type": "fluid-wagon",
+      "name": "fluid-wagon"
+    },
+    {
+      "type": "artillery-wagon",
+      "name": "artillery-wagon"
+    },
+    {
+      "type": "car",
+      "name": "car"
+    },
+    {
+      "type": "car",
+      "name": "tank"
+    },
+    {
+      "type": "logistic-robot",
+      "name": "logistic-robot"
+    },
+    {
+      "type": "construction-robot",
+      "name": "construction-robot"
+    },
+    {
+      "type": "logistic-container",
+      "name": "logistic-chest-active-provider"
+    },
+    {
+      "type": "logistic-container",
+      "name": "logistic-chest-passive-provider"
+    },
+    {
+      "type": "logistic-container",
+      "name": "logistic-chest-storage"
+    },
+    {
+      "type": "logistic-container",
+      "name": "logistic-chest-buffer"
+    },
+    {
+      "type": "logistic-container",
+      "name": "logistic-chest-requester"
+    },
+    {
+      "type": "roboport",
+      "name": "roboport"
+    },
+    {
+      "type": "lamp",
+      "name": "small-lamp"
+    },
+    {
+      "type": "arithmetic-combinator",
+      "name": "arithmetic-combinator"
+    },
+    {
+      "type": "decider-combinator",
+      "name": "decider-combinator"
+    },
+    {
+      "type": "constant-combinator",
+      "name": "constant-combinator"
+    },
+    {
+      "type": "power-switch",
+      "name": "power-switch"
+    },
+    {
+      "type": "programmable-speaker",
+      "name": "programmable-speaker"
+    },
+    {
+      "type": "boiler",
+      "name": "boiler"
+    },
+    {
+      "type": "generator",
+      "name": "steam-engine"
+    },
+    {
+      "type": "generator",
+      "name": "steam-turbine"
+    },
+    {
+      "type": "solar-panel",
+      "name": "solar-panel"
+    },
+    {
+      "type": "accumulator",
+      "name": "accumulator"
+    },
+    {
+      "type": "reactor",
+      "name": "nuclear-reactor"
+    },
+    {
+      "type": "boiler",
+      "name": "heat-exchanger"
+    },
+    {
+      "type": "heat-pipe",
+      "name": "heat-pipe"
+    },
+    {
+      "type": "mining-drill",
+      "name": "burner-mining-drill"
+    },
+    {
+      "type": "mining-drill",
+      "name": "electric-mining-drill"
+    },
+    {
+      "type": "offshore-pump",
+      "name": "offshore-pump"
+    },
+    {
+      "type": "mining-drill",
+      "name": "pumpjack"
+    },
+    {
+      "type": "furnace",
+      "name": "stone-furnace",
+      "categories": { "smelting": true }
+    },
+    {
+      "type": "furnace",
+      "name": "steel-furnace",
+      "categories": { "smelting": true }
+    },
+    {
+      "type": "furnace",
+      "name": "electric-furnace",
+      "categories": { "smelting": true }
+    },
+    {
+      "type": "assembling-machine",
+      "name": "escape-pod-assembler",
+      "categories": {
+        "crafting": true,
+        "basic-crafting": true,
+        "advanced-crafting": true
+      }
+    },
+    {
+      "type": "assembling-machine",
+      "name": "assembling-machine-1",
+      "categories": {
+        "crafting": true,
+        "basic-crafting": true,
+        "advanced-crafting": true
+      }
+    },
+    {
+      "type": "assembling-machine",
+      "name": "assembling-machine-2",
+      "categories": {
+        "basic-crafting": true,
+        "crafting": true,
+        "advanced-crafting": true,
+        "crafting-with-fluid": true
+      }
+    },
+    {
+      "type": "assembling-machine",
+      "name": "assembling-machine-3",
+      "categories": {
+        "basic-crafting": true,
+        "crafting": true,
+        "advanced-crafting": true,
+        "crafting-with-fluid": true
+      }
+    },
+    {
+      "type": "assembling-machine",
+      "name": "oil-refinery",
+      "categories": { "oil-processing": true }
+    },
+    {
+      "type": "assembling-machine",
+      "name": "chemical-plant",
+      "categories": { "chemistry": true }
+    },
+    {
+      "type": "assembling-machine",
+      "name": "centrifuge",
+      "categories": { "centrifuging": true }
+    },
+    {
+      "type": "lab",
+      "name": "escape-pod-lab"
+    },
+    {
+      "type": "lab",
+      "name": "lab"
+    },
+    {
+      "type": "beacon",
+      "name": "beacon"
+    },
+    {
+      "type": "land-mine",
+      "name": "land-mine"
+    },
+    {
+      "type": "wall",
+      "name": "stone-wall"
+    },
+    {
+      "type": "gate",
+      "name": "gate"
+    },
+    {
+      "type": "ammo-turret",
+      "name": "gun-turret"
+    },
+    {
+      "type": "electric-turret",
+      "name": "laser-turret"
+    },
+    {
+      "type": "fluid-turret",
+      "name": "flamethrower-turret"
+    },
+    {
+      "type": "artillery-turret",
+      "name": "artillery-turret"
+    },
+    {
+      "type": "radar",
+      "name": "radar"
+    },
+    {
+      "type": "rocket-silo",
+      "name": "rocket-silo",
+      "categories": { "rocket-building": true }
+    },
+    {
+      "type": "infinity-container",
+      "name": "infinity-chest"
+    },
+    {
+      "type": "simple-entity-with-force",
+      "name": "simple-entity-with-force"
+    },
+    {
+      "type": "simple-entity-with-owner",
+      "name": "simple-entity-with-owner"
+    },
+    {
+      "type": "electric-energy-interface",
+      "name": "electric-energy-interface"
+    },
+    {
+      "type": "electric-energy-interface",
+      "name": "escape-pod-power"
+    },
+    {
+      "type": "heat-interface",
+      "name": "heat-interface"
+    },
+    {
+      "type": "infinity-pipe",
+      "name": "infinity-pipe"
+    },
+    {
+      "type": "player-port",
+      "name": "player-port"
+    },
+    {
+      "type": "cliff",
+      "name": "cliff"
+    },
+    {
+      "type": "player",
+      "name": "player",
+      "categories": { "crafting": true }
+    },
+    {
+      "type": "fish",
+      "name": "fish"
+    },
+    {
+      "type": "tree",
+      "name": "tree-01"
+    },
+    {
+      "type": "tree",
+      "name": "tree-02"
+    },
+    {
+      "type": "tree",
+      "name": "tree-03"
+    },
+    {
+      "type": "tree",
+      "name": "tree-04"
+    },
+    {
+      "type": "tree",
+      "name": "tree-05"
+    },
+    {
+      "type": "tree",
+      "name": "tree-09"
+    },
+    {
+      "type": "tree",
+      "name": "tree-02-red"
+    },
+    {
+      "type": "tree",
+      "name": "tree-07"
+    },
+    {
+      "type": "tree",
+      "name": "tree-06"
+    },
+    {
+      "type": "tree",
+      "name": "tree-06-brown"
+    },
+    {
+      "type": "tree",
+      "name": "tree-09-brown"
+    },
+    {
+      "type": "tree",
+      "name": "tree-09-red"
+    },
+    {
+      "type": "tree",
+      "name": "tree-08"
+    },
+    {
+      "type": "tree",
+      "name": "tree-08-brown"
+    },
+    {
+      "type": "tree",
+      "name": "tree-08-red"
+    },
+    {
+      "type": "tree",
+      "name": "dead-dry-hairy-tree"
+    },
+    {
+      "type": "tree",
+      "name": "dead-grey-trunk"
+    },
+    {
+      "type": "tree",
+      "name": "dead-tree-desert"
+    },
+    {
+      "type": "tree",
+      "name": "dry-hairy-tree"
+    },
+    {
+      "type": "tree",
+      "name": "dry-tree"
+    },
+    {
+      "type": "simple-entity",
+      "name": "rock-huge"
+    },
+    {
+      "type": "simple-entity",
+      "name": "rock-big"
+    },
+    {
+      "type": "corpse",
+      "name": "small-biter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "medium-biter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "behemoth-biter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "big-biter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "biter-spawner-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "behemoth-spitter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "big-spitter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "medium-spitter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "small-spitter-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "spitter-spawner-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "small-worm-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "medium-worm-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "big-worm-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "behemoth-worm-corpse"
+    },
+    {
+      "type": "corpse",
+      "name": "small-remnants"
+    },
+    {
+      "type": "corpse",
+      "name": "medium-remnants"
+    },
+    {
+      "type": "corpse",
+      "name": "big-remnants"
+    },
+    {
+      "type": "rail-remnants",
+      "name": "straight-rail-remnants"
+    },
+    {
+      "type": "rail-remnants",
+      "name": "curved-rail-remnants"
+    },
+    {
+      "type": "corpse",
+      "name": "small-scorchmark"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-01-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-02-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-03-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-04-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-05-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-06-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-07-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-08-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "tree-09-stump"
+    },
+    {
+      "type": "corpse",
+      "name": "wall-remnants"
+    },
+    {
+      "type": "simple-entity",
+      "name": "sand-rock-big"
+    },
+    {
+      "type": "simple-entity",
+      "name": "assembler-wreck"
+    },
+    {
+      "type": "container",
+      "name": "big-ship-wreck-1"
+    },
+    {
+      "type": "simple-entity",
+      "name": "lab-wreck"
+    },
+    {
+      "type": "container",
+      "name": "big-ship-wreck-2"
+    },
+    {
+      "type": "container",
+      "name": "big-ship-wreck-3"
+    },
+    {
+      "type": "simple-entity",
+      "name": "medium-ship-wreck"
+    },
+    {
+      "type": "simple-entity",
+      "name": "mineable-wreckage"
+    },
+    {
+      "type": "simple-entity",
+      "name": "small-ship-wreck"
+    },
+    {
+      "type": "unit",
+      "name": "compilatron"
+    },
+    {
+      "type": "unit",
+      "name": "small-biter"
+    },
+    {
+      "type": "unit",
+      "name": "medium-biter"
+    },
+    {
+      "type": "unit",
+      "name": "big-biter"
+    },
+    {
+      "type": "unit",
+      "name": "behemoth-biter"
+    },
+    {
+      "type": "unit",
+      "name": "small-spitter"
+    },
+    {
+      "type": "turret",
+      "name": "small-worm-turret"
+    },
+    {
+      "type": "unit",
+      "name": "medium-spitter"
+    },
+    {
+      "type": "turret",
+      "name": "medium-worm-turret"
+    },
+    {
+      "type": "unit",
+      "name": "behemoth-spitter"
+    },
+    {
+      "type": "unit",
+      "name": "big-spitter"
+    },
+    {
+      "type": "turret",
+      "name": "big-worm-turret"
+    },
+    {
+      "type": "turret",
+      "name": "behemoth-worm-turret"
+    },
+    {
+      "type": "unit-spawner",
+      "name": "biter-spawner"
+    },
+    {
+      "type": "unit-spawner",
+      "name": "spitter-spawner"
+    },
+    {
+      "type": "combat-robot",
+      "name": "defender"
+    },
+    {
+      "type": "combat-robot",
+      "name": "distractor"
+    },
+    {
+      "type": "combat-robot",
+      "name": "destroyer"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-spitter-behemoth"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-spitter-big"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-spitter-medium"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-spitter-small"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-worm-behemoth"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-worm-big"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-worm-medium"
+    },
+    {
+      "type": "fire",
+      "name": "acid-splash-fire-worm-small"
+    },
+    {
+      "type": "sticker",
+      "name": "acid-sticker-behemoth"
+    },
+    {
+      "type": "sticker",
+      "name": "acid-sticker-big"
+    },
+    {
+      "type": "sticker",
+      "name": "acid-sticker-medium"
+    },
+    {
+      "type": "sticker",
+      "name": "acid-sticker-small"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-spitter-behemoth"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-spitter-big"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-spitter-medium"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-spitter-small"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-worm-behemoth"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-worm-big"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-worm-medium"
+    },
+    {
+      "type": "stream",
+      "name": "acid-stream-worm-small"
+    },
+    {
+      "type": "explosion",
+      "name": "artillery-cannon-muzzle-flash"
+    },
+    {
+      "type": "artillery-flare",
+      "name": "artillery-flare"
+    },
+    {
+      "type": "artillery-projectile",
+      "name": "artillery-projectile"
+    },
+    {
+      "type": "projectile",
+      "name": "atomic-bomb-wave"
+    },
+    {
+      "type": "projectile",
+      "name": "atomic-rocket"
+    },
+    {
+      "type": "explosion",
+      "name": "big-artillery-explosion"
+    },
+    {
+      "type": "explosion",
+      "name": "big-explosion"
+    },
+    {
+      "type": "decorative",
+      "name": "big-ship-wreck-grass"
+    },
+    {
+      "type": "explosion",
+      "name": "blood-explosion-big"
+    },
+    {
+      "type": "explosion",
+      "name": "blood-explosion-huge"
+    },
+    {
+      "type": "explosion",
+      "name": "blood-explosion-small"
+    },
+    {
+      "type": "particle-source",
+      "name": "blood-fountain"
+    },
+    {
+      "type": "particle-source",
+      "name": "blood-fountain-big"
+    },
+    {
+      "type": "particle",
+      "name": "blood-particle"
+    },
+    {
+      "type": "projectile",
+      "name": "blue-laser"
+    },
+    {
+      "type": "particle",
+      "name": "branch-particle"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-asterisk"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-cane-cluster"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-cane-single"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-carpet-grass"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-coral-mini"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-fluff"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-fluff-dry"
+    },
+    {
+      "type": "decorative",
+      "name": "brown-hairy-grass"
+    },
+    {
+      "type": "projectile",
+      "name": "cannon-projectile"
+    },
+    {
+      "type": "character-corpse",
+      "name": "character-corpse"
+    },
+    {
+      "type": "projectile",
+      "name": "cliff-explosives"
+    },
+    {
+      "type": "projectile",
+      "name": "cluster-grenade"
+    },
+    {
+      "type": "particle",
+      "name": "coal-particle"
+    },
+    {
+      "type": "speech-bubble",
+      "name": "compi-speech-bubble"
+    },
+    {
+      "type": "particle",
+      "name": "copper-ore-particle"
+    },
+    {
+      "type": "deconstructible-tile-proxy",
+      "name": "deconstructible-tile-proxy"
+    },
+    {
+      "type": "projectile",
+      "name": "defender-capsule"
+    },
+    {
+      "type": "projectile",
+      "name": "destroyer-capsule"
+    },
+    {
+      "type": "projectile",
+      "name": "distractor-capsule"
+    },
+    {
+      "type": "flame-thrower-explosion",
+      "name": "dummy-flame-thrower-explosion"
+    },
+    {
+      "type": "beam",
+      "name": "electric-beam"
+    },
+    {
+      "type": "beam",
+      "name": "electric-beam-no-sound"
+    },
+    {
+      "type": "entity-ghost",
+      "name": "entity-ghost"
+    },
+    {
+      "type": "explosion",
+      "name": "explosion"
+    },
+    {
+      "type": "explosion",
+      "name": "explosion-gunshot"
+    },
+    {
+      "type": "explosion",
+      "name": "explosion-gunshot-small"
+    },
+    {
+      "type": "explosion",
+      "name": "explosion-hit"
+    },
+    {
+      "type": "particle",
+      "name": "explosion-remnants-particle"
+    },
+    {
+      "type": "projectile",
+      "name": "explosive-cannon-projectile"
+    },
+    {
+      "type": "projectile",
+      "name": "explosive-rocket"
+    },
+    {
+      "type": "projectile",
+      "name": "explosive-uranium-cannon-projectile"
+    },
+    {
+      "type": "arrow",
+      "name": "fake-selection-box-2x2"
+    },
+    {
+      "type": "fire",
+      "name": "fire-flame"
+    },
+    {
+      "type": "fire",
+      "name": "fire-flame-on-tree"
+    },
+    {
+      "type": "sticker",
+      "name": "fire-sticker"
+    },
+    {
+      "type": "stream",
+      "name": "flamethrower-fire-stream"
+    },
+    {
+      "type": "flying-text",
+      "name": "flying-text"
+    },
+    {
+      "type": "decorative",
+      "name": "garballo"
+    },
+    {
+      "type": "decorative",
+      "name": "garballo-mini-dry"
+    },
+    {
+      "type": "decorative",
+      "name": "green-asterisk"
+    },
+    {
+      "type": "decorative",
+      "name": "green-bush-mini"
+    },
+    {
+      "type": "decorative",
+      "name": "green-carpet-grass"
+    },
+    {
+      "type": "decorative",
+      "name": "green-coral-mini"
+    },
+    {
+      "type": "decorative",
+      "name": "green-hairy-grass"
+    },
+    {
+      "type": "decorative",
+      "name": "green-pita"
+    },
+    {
+      "type": "decorative",
+      "name": "green-pita-mini"
+    },
+    {
+      "type": "decorative",
+      "name": "green-small-grass"
+    },
+    {
+      "type": "projectile",
+      "name": "grenade"
+    },
+    {
+      "type": "explosion",
+      "name": "ground-explosion"
+    },
+    {
+      "type": "stream",
+      "name": "handheld-flamethrower-fire-stream"
+    },
+    {
+      "type": "highlight-box",
+      "name": "highlight-box"
+    },
+    {
+      "type": "particle",
+      "name": "iron-ore-particle"
+    },
+    {
+      "type": "item-entity",
+      "name": "item-on-ground"
+    },
+    {
+      "type": "item-request-proxy",
+      "name": "item-request-proxy"
+    },
+    {
+      "type": "projectile",
+      "name": "laser"
+    },
+    {
+      "type": "beam",
+      "name": "laser-beam"
+    },
+    {
+      "type": "explosion",
+      "name": "laser-bubble"
+    },
+    {
+      "type": "leaf-particle",
+      "name": "leaf-particle"
+    },
+    {
+      "type": "explosion",
+      "name": "massive-explosion"
+    },
+    {
+      "type": "explosion",
+      "name": "medium-explosion"
+    },
+    {
+      "type": "arrow",
+      "name": "orange-arrow-with-circle"
+    },
+    {
+      "type": "decorative",
+      "name": "orange-coral-mini"
+    },
+    {
+      "type": "projectile",
+      "name": "piercing-shotgun-pellet"
+    },
+    {
+      "type": "projectile",
+      "name": "poison-capsule"
+    },
+    {
+      "type": "smoke-with-trigger",
+      "name": "poison-cloud"
+    },
+    {
+      "type": "explosion",
+      "name": "railgun-beam"
+    },
+    {
+      "type": "decorative",
+      "name": "red-asterisk"
+    },
+    {
+      "type": "projectile",
+      "name": "rocket"
+    },
+    {
+      "type": "rocket-silo-rocket",
+      "name": "rocket-silo-rocket"
+    },
+    {
+      "type": "rocket-silo-rocket-shadow",
+      "name": "rocket-silo-rocket-shadow"
+    },
+    {
+      "type": "decorative",
+      "name": "root-A"
+    },
+    {
+      "type": "decorative",
+      "name": "root-B"
+    },
+    {
+      "type": "particle",
+      "name": "shallow-water-droplet-particle"
+    },
+    {
+      "type": "particle",
+      "name": "shell-particle"
+    },
+    {
+      "type": "projectile",
+      "name": "shotgun-pellet"
+    },
+    {
+      "type": "projectile",
+      "name": "slowdown-capsule"
+    },
+    {
+      "type": "sticker",
+      "name": "slowdown-sticker"
+    },
+    {
+      "type": "decorative",
+      "name": "small-ship-wreck-grass"
+    },
+    {
+      "type": "smoke",
+      "name": "smoke-for-migration"
+    },
+    {
+      "type": "particle",
+      "name": "stone-particle"
+    },
+    {
+      "type": "sticker",
+      "name": "stun-sticker"
+    },
+    {
+      "type": "stream",
+      "name": "tank-flamethrower-fire-stream"
+    },
+    {
+      "type": "tile-ghost",
+      "name": "tile-ghost"
+    },
+    {
+      "type": "flying-text",
+      "name": "tutorial-flying-text"
+    },
+    {
+      "type": "explosion",
+      "name": "uranium-cannon-explosion"
+    },
+    {
+      "type": "projectile",
+      "name": "uranium-cannon-projectile"
+    },
+    {
+      "type": "explosion",
+      "name": "uranium-cannon-shell-explosion"
+    },
+    {
+      "type": "explosion",
+      "name": "water-splash"
+    },
+    {
+      "type": "particle",
+      "name": "wooden-particle"
+    },
+    {
+      "type": "container",
+      "name": "bait-chest"
+    },
+    {
+      "type": "electric-pole",
+      "name": "wreck-pole"
+    },
+    {
+      "type": "resource",
+      "name": "crude-oil"
+    },
+    {
+      "type": "resource",
+      "name": "coal"
+    },
+    {
+      "type": "resource",
+      "name": "copper-ore"
+    },
+    {
+      "type": "resource",
+      "name": "iron-ore"
+    },
+    {
+      "type": "resource",
+      "name": "stone"
+    },
+    {
+      "type": "resource",
+      "name": "uranium-ore"
+    },
+    {
+      "type": "container",
+      "name": "blue-chest"
+    },
+    {
+      "type": "market",
+      "name": "market"
+    },
+    {
+      "type": "electric-energy-interface",
+      "name": "hidden-electric-energy-interface"
+    },
+    {
+      "type": "container",
+      "name": "red-chest"
+    }
+  ],
+  "items": [
+    { "name": "wooden-chest" },
+    { "name": "iron-chest" },
+    { "name": "steel-chest" },
+    { "name": "compilatron-chest" },
+    { "name": "storage-tank" },
+    { "name": "transport-belt" },
+    { "name": "fast-transport-belt" },
+    { "name": "express-transport-belt" },
+    { "name": "underground-belt" },
+    { "name": "fast-underground-belt" },
+    { "name": "express-underground-belt" },
+    { "name": "splitter" },
+    { "name": "fast-splitter" },
+    { "name": "express-splitter" },
+    { "name": "loader" },
+    { "name": "fast-loader" },
+    { "name": "express-loader" },
+    { "name": "burner-inserter" },
+    { "name": "inserter" },
+    { "name": "long-handed-inserter" },
+    { "name": "fast-inserter" },
+    { "name": "filter-inserter" },
+    { "name": "stack-inserter" },
+    { "name": "stack-filter-inserter" },
+    { "name": "small-electric-pole" },
+    { "name": "medium-electric-pole" },
+    { "name": "big-electric-pole" },
+    { "name": "substation" },
+    { "name": "pipe" },
+    { "name": "pipe-to-ground" },
+    { "name": "pump" },
+    { "name": "rail" },
+    { "name": "train-stop" },
+    { "name": "rail-signal" },
+    { "name": "rail-chain-signal" },
+    { "name": "locomotive" },
+    { "name": "cargo-wagon" },
+    { "name": "fluid-wagon" },
+    { "name": "artillery-wagon" },
+    { "name": "car" },
+    { "name": "tank" },
+    { "name": "small-plane" },
+    { "name": "logistic-robot" },
+    { "name": "construction-robot" },
+    { "name": "logistic-chest-active-provider" },
+    { "name": "logistic-chest-passive-provider" },
+    { "name": "logistic-chest-storage" },
+    { "name": "logistic-chest-buffer" },
+    { "name": "logistic-chest-requester" },
+    { "name": "roboport" },
+    { "name": "small-lamp" },
+    { "name": "red-wire" },
+    { "name": "green-wire" },
+    { "name": "arithmetic-combinator" },
+    { "name": "decider-combinator" },
+    { "name": "constant-combinator" },
+    { "name": "power-switch" },
+    { "name": "programmable-speaker" },
+    { "name": "stone-brick" },
+    { "name": "concrete" },
+    { "name": "hazard-concrete" },
+    { "name": "refined-concrete" },
+    { "name": "refined-hazard-concrete" },
+    { "name": "landfill" },
+    { "name": "cliff-explosives" },
+    { "name": "dummy-steel-axe" },
+    { "name": "repair-pack" },
+    { "name": "blueprint" },
+    { "name": "deconstruction-planner" },
+    { "name": "upgrade-planner" },
+    { "name": "blueprint-book" },
+    { "name": "copy-paste-tool" },
+    { "name": "cut-paste-tool" },
+    { "name": "boiler" },
+    { "name": "steam-engine" },
+    { "name": "steam-turbine" },
+    { "name": "solar-panel" },
+    { "name": "accumulator" },
+    { "name": "electric-energy-interface" },
+    { "name": "escape-pod-power" },
+    { "name": "heat-interface" },
+    { "name": "nuclear-reactor" },
+    { "name": "heat-exchanger" },
+    { "name": "heat-pipe" },
+    { "name": "burner-mining-drill" },
+    { "name": "electric-mining-drill" },
+    { "name": "offshore-pump" },
+    { "name": "pumpjack" },
+    { "name": "stone-furnace" },
+    { "name": "steel-furnace" },
+    { "name": "electric-furnace" },
+    { "name": "escape-pod-assembler" },
+    { "name": "assembling-machine-1" },
+    { "name": "assembling-machine-2" },
+    { "name": "assembling-machine-3" },
+    { "name": "oil-refinery" },
+    { "name": "chemical-plant" },
+    { "name": "centrifuge" },
+    { "name": "escape-pod-lab" },
+    { "name": "lab" },
+    { "name": "beacon" },
+    { "name": "speed-module" },
+    { "name": "speed-module-2" },
+    { "name": "speed-module-3" },
+    { "name": "effectivity-module" },
+    { "name": "effectivity-module-2" },
+    { "name": "effectivity-module-3" },
+    { "name": "productivity-module" },
+    { "name": "productivity-module-2" },
+    { "name": "productivity-module-3" },
+    { "name": "wood" },
+    { "name": "coal" },
+    { "name": "stone" },
+    { "name": "iron-ore" },
+    { "name": "copper-ore" },
+    { "name": "uranium-ore" },
+    { "name": "raw-fish" },
+    { "name": "iron-plate" },
+    { "name": "copper-plate" },
+    { "name": "solid-fuel" },
+    { "name": "steel-plate" },
+    { "name": "plastic-bar" },
+    { "name": "sulfur" },
+    { "name": "battery" },
+    { "name": "explosives" },
+    { "name": "crude-oil-barrel" },
+    { "name": "heavy-oil-barrel" },
+    { "name": "light-oil-barrel" },
+    { "name": "lubricant-barrel" },
+    { "name": "petroleum-gas-barrel" },
+    { "name": "sulfuric-acid-barrel" },
+    { "name": "water-barrel" },
+    { "name": "copper-cable" },
+    { "name": "pollution" },
+    { "name": "iron-stick" },
+    { "name": "iron-gear-wheel" },
+    { "name": "empty-barrel" },
+    { "name": "electronic-circuit" },
+    { "name": "advanced-circuit" },
+    { "name": "processing-unit" },
+    { "name": "engine-unit" },
+    { "name": "electric-engine-unit" },
+    { "name": "flying-robot-frame" },
+    { "name": "satellite" },
+    { "name": "rocket-control-unit" },
+    { "name": "low-density-structure" },
+    { "name": "rocket-fuel" },
+    { "name": "rocket-part" },
+    { "name": "nuclear-fuel" },
+    { "name": "uranium-235" },
+    { "name": "uranium-238" },
+    { "name": "uranium-fuel-cell" },
+    { "name": "used-up-uranium-fuel-cell" },
+    { "name": "automation-science-pack" },
+    { "name": "logistic-science-pack" },
+    { "name": "military-science-pack" },
+    { "name": "chemical-science-pack" },
+    { "name": "production-science-pack" },
+    { "name": "utility-science-pack" },
+    { "name": "space-science-pack" },
+    { "name": "coin" },
+    { "name": "pistol" },
+    { "name": "submachine-gun" },
+    { "name": "tank-machine-gun" },
+    { "name": "vehicle-machine-gun" },
+    { "name": "tank-flamethrower" },
+    { "name": "shotgun" },
+    { "name": "combat-shotgun" },
+    { "name": "railgun" },
+    { "name": "rocket-launcher" },
+    { "name": "flamethrower" },
+    { "name": "land-mine" },
+    { "name": "artillery-wagon-cannon" },
+    { "name": "tank-cannon" },
+    { "name": "firearm-magazine" },
+    { "name": "piercing-rounds-magazine" },
+    { "name": "uranium-rounds-magazine" },
+    { "name": "shotgun-shell" },
+    { "name": "piercing-shotgun-shell" },
+    { "name": "railgun-dart" },
+    { "name": "cannon-shell" },
+    { "name": "explosive-cannon-shell" },
+    { "name": "uranium-cannon-shell" },
+    { "name": "explosive-uranium-cannon-shell" },
+    { "name": "artillery-shell" },
+    { "name": "rocket" },
+    { "name": "explosive-rocket" },
+    { "name": "atomic-bomb" },
+    { "name": "flamethrower-ammo" },
+    { "name": "grenade" },
+    { "name": "cluster-grenade" },
+    { "name": "poison-capsule" },
+    { "name": "slowdown-capsule" },
+    { "name": "defender-capsule" },
+    { "name": "distractor-capsule" },
+    { "name": "destroyer-capsule" },
+    { "name": "discharge-defense-remote" },
+    { "name": "artillery-targeting-remote" },
+    { "name": "light-armor" },
+    { "name": "heavy-armor" },
+    { "name": "modular-armor" },
+    { "name": "power-armor" },
+    { "name": "power-armor-mk2" },
+    { "name": "solar-panel-equipment" },
+    { "name": "fusion-reactor-equipment" },
+    { "name": "energy-shield-equipment" },
+    { "name": "energy-shield-mk2-equipment" },
+    { "name": "battery-equipment" },
+    { "name": "battery-mk2-equipment" },
+    { "name": "personal-laser-defense-equipment" },
+    { "name": "discharge-defense-equipment" },
+    { "name": "belt-immunity-equipment" },
+    { "name": "exoskeleton-equipment" },
+    { "name": "personal-roboport-equipment" },
+    { "name": "personal-roboport-mk2-equipment" },
+    { "name": "night-vision-equipment" },
+    { "name": "stone-wall" },
+    { "name": "gate" },
+    { "name": "gun-turret" },
+    { "name": "laser-turret" },
+    { "name": "flamethrower-turret" },
+    { "name": "artillery-turret" },
+    { "name": "radar" },
+    { "name": "rocket-silo" },
+    { "name": "computer" },
+    { "name": "player-port" },
+    { "name": "selection-tool" },
+    { "name": "item-with-inventory" },
+    { "name": "item-with-label" },
+    { "name": "item-with-tags" },
+    { "name": "simple-entity-with-force" },
+    { "name": "simple-entity-with-owner" },
+    { "name": "infinity-chest" },
+    { "name": "infinity-pipe" }
+  ]
+}
