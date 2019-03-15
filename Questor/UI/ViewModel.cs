@@ -1,7 +1,6 @@
 ﻿using System.Collections;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.Linq;
+using System.ComponentModel;
+using Questor.Models;
 using Questor.ViewModels;
 
 namespace Questor.UI
@@ -9,47 +8,52 @@ namespace Questor.UI
     public abstract class ViewModel : PropertyNotifier
     { }
 
-    public interface IViewModel
+    public interface IViewModel<TM> : IViewModel
     {
-        object GetModel();
-        void SetModel(object model);
+        TM Model { get; set; }
     }
 
-    public interface IViewModel<M> : IViewModel
-    {
-        M Model { get; set; }
-    }
-
-    public interface IViewModelContext
-    {}
-
-    public interface ITreeViewModel<TCtx>
-    {
-        IList ParentCollection { get; set; }
-        bool IsExanded { get; set; }
-        ViewModel Parent { get; set; }
-
-        TCtx ViewModelContext { get; set; }
-    }
-
-    public abstract class ViewModel<M, TCtx> : ViewModel, IViewModel<M>, ITreeViewModel<TCtx>, IEditModel
+    public abstract class ViewModel<TM, TCtx> : ViewModel, IViewModel<TM>, ITreeViewModel<TCtx>, IEditModel
+        where TM : BaseModel
     {
         protected ViewModel()
         {
 
         }
 
-        protected ViewModel(M model)
+        protected ViewModel(TM model)
         {
-            _model = model;
+            Model = model;
         }
 
-        private M _model;
+        private bool _isValid;        
+        public bool IsValid
+        {
+            get { return _isValid; }
+            set { SetProperty(ref _isValid, value); }
+        }
 
-        public M Model
+        private TM _model;
+        public TM Model
         {
             get { return _model; }
-            set { SetProperty(ref _model, value); }
+            set
+            {
+                if (_model != null)
+                {
+                    _model.PropertyChanged -= ModelOnPropertyChanged;
+                }
+                SetProperty(ref _model, value);
+                if (_model != null)
+                {
+                    _model.PropertyChanged += ModelOnPropertyChanged;
+                }
+            }
+        }
+
+        protected virtual void ModelOnPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            Validate();
         }
 
         public object GetModel()
@@ -59,7 +63,7 @@ namespace Questor.UI
 
         public void SetModel(object model)
         {
-            Model = (M) model;
+            Model = (TM) model;
         }
 
         public IList ParentCollection { get; set; }
@@ -76,146 +80,16 @@ namespace Questor.UI
         {
             ParentCollection.Remove(Model);
         }
-    }
 
-    public abstract class CollectionViewModel<C, VI, I, TCtx> : ViewModel, IEditModel, ITreeViewModel<TCtx>
-        where C : ObservableCollection<I>
-        where VI : IViewModel, new()
-        where I : new()
-
-    {
-        protected CollectionViewModel()
+        public bool Validate()
         {
+            IsValid = DoValidate();
+            return IsValid;
         }
 
-        public ViewModelCollection<VI, TCtx> ModelViewModels { get; set; }
-
-        public void Insert()
+        protected virtual bool DoValidate()
         {
-            Models.Add(new I());
-        }
-
-        public virtual void Delete()
-        {
-        }
-
-        private C _models;
-
-        protected CollectionViewModel(C models)
-        {
-            Models = models;
-        }
-
-        private void AddModelsToViewModel(C items)
-        {
-            ModelViewModels = new ViewModelCollection<VI, TCtx>(items, this, ViewModelContext);
-            foreach (I item in items)
-            {
-                ModelViewModels.Add(CreateItemViewModel(item));
-            }
-
-        }
-
-        public C Models
-        {
-            get { return _models; }
-            set
-            {
-                if (_models != null)
-                {
-                    _models.CollectionChanged -= ModelViewModelsOnCollectionChanged;
-                }
-                SetProperty(ref _models, value);
-                if (_models != null)
-                {
-                    AddModelsToViewModel(_models);
-
-                    _models.CollectionChanged += ModelViewModelsOnCollectionChanged;
-                }
-            }
-        }
-
-        protected virtual VI CreateItemViewModel(I model)
-        {
-            VI vi = new VI();
-             if (vi is IViewModel modelVi)
-            {
-                modelVi.SetModel(model);
-            }
-            return vi;
-        }
-
-        private void ModelViewModelsOnCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
-        {
-            if (e.Action == NotifyCollectionChangedAction.Add)
-            {
-                foreach (I model in e.NewItems)
-                {
-                    ModelViewModels.Add(CreateItemViewModel(model));
-                }
-            }
-            else if (e.Action == NotifyCollectionChangedAction.Remove)
-            {
-                foreach (I model in e.OldItems)
-                {   
-                    ModelViewModels.Remove(ModelViewModels.FirstOrDefault(i => ReferenceEquals(i.GetModel(), model)));
-                }
-
-            }
-        }
-
-        public VI Model { get; set; }
-        public IList ParentCollection { get; set; }
-        public bool IsExanded { get; set; } = true;
-        public ViewModel Parent { get; set; }
-        public TCtx ViewModelContext { get; set; }
-    }
-
-    public abstract class ModelCollectionViewModel<M, C, VI, I, TCtx> : CollectionViewModel<C, VI, I, TCtx>, IViewModel<VI> 
-        where C : ObservableCollection<I> 
-        where VI : ViewModel, IViewModel, new()
-        where I : new()
-
-    {
-        protected ModelCollectionViewModel() 
-        {
-        }
-
-        protected ModelCollectionViewModel(M model)
-        {
-            Model = model;
-            Models = GetModelCollection();
-
-        }
-
-        private M _model;
-
-        public M Model
-        {
-            get { return _model; }
-            set
-            {
-                if (SetProperty(ref _model, value))
-                {
-                    Models = GetModelCollection();
-                }
-            }
-        }
-
-        protected abstract C GetModelCollection();
-        public object GetModel()
-        {
-            return Model;
-        }
-
-        public void SetModel(object model)
-        {
-            Model = (M) model;
-        }
-
-        public override void Delete()
-        {
-            ParentCollection.Remove(Model);
+            return true;
         }
     }
 }

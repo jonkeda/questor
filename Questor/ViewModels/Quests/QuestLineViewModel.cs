@@ -1,52 +1,44 @@
-﻿using System.Collections.ObjectModel;
-using Questor.Models.Contexts;
-using Questor.Models.Quests;
-using Questor.UI;
+﻿using Questor.Models.Quests;
 
 namespace Questor.ViewModels.Quests
 {
-    public abstract class CollectionViewModel<C, VI, I> : CollectionViewModel<C, VI, I, CampaignContext>
-        where C : ObservableCollection<I>
-        where VI : IViewModel, new()
-        where I : new()
-    {
-        protected CollectionViewModel()
-        {
-        }
-
-        protected CollectionViewModel(C models) : base(models)
-        {
-        }
-    }
-
-    public abstract class ModelCollectionViewModel<M, C, VI, I> : ModelCollectionViewModel<M, C, VI, I, CampaignContext>
-        where C : ObservableCollection<I>
-        where VI : ViewModel, IViewModel, new()
-        where I : new()
-    {
-        protected ModelCollectionViewModel()
-        {
-        }
-
-        protected ModelCollectionViewModel(M model) : base(model)
-        {
-        }
-    }
-
-    public class QuestLineCollectionViewModel : CollectionViewModel<QuestLineCollection, QuestLineViewModel, QuestLine>
-    {
-        public QuestLineCollectionViewModel(QuestLineCollection models) : base(models)
-        {
-        }
-    }
-
     public class QuestLineViewModel : ModelCollectionViewModel<QuestLine, QuestCollection, QuestViewModel, Quest>
     {
+        private bool _nameIsValid;
+        private bool _titleIsValid;
+        private bool _descriptionIsValid;
+
         protected override QuestCollection GetModelCollection()
         {
             return Model.Quests;
         }
-    }
 
-    
+        public bool NameIsValid
+        {
+            get { return _nameIsValid; }
+            set { SetProperty(ref _nameIsValid, value); }
+        }
+
+        public bool TitleIsValid
+        {
+            get { return _titleIsValid; }
+            set { SetProperty(ref _titleIsValid, value); }
+        }
+
+        public bool DescriptionIsValid
+        {
+            get { return _descriptionIsValid; }
+            set { SetProperty(ref _descriptionIsValid, value); }
+        }
+        
+        protected override bool DoValidate()
+        {
+            bool isValid = NameIsValid = !string.IsNullOrEmpty(Model.Name);
+
+            isValid &= TitleIsValid = !string.IsNullOrEmpty(Model.Title);
+
+            return isValid;
+        }
+
+    }
 }

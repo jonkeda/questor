@@ -8,7 +8,9 @@ namespace Questor.Models.Prototypes
         {
             return new ItemCollection
             {
+                new Item("iron-ore"),
                 new Item("iron-plate"),
+                new Item("steel-plate"),
             };
         }
     }

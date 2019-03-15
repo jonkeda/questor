@@ -1,8 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using Microsoft.Win32;
 using Questor.Extensions;
+using Questor.Generators;
 using Questor.Models.Quests;
 using Questor.UI;
 using Questor.ViewModels.Quests;
@@ -11,12 +14,13 @@ namespace Questor.ViewModels
 {
     public class MainViewModel : ViewModel
     {
-        private CampaignViewModel _campaign;
+        private ProjectViewModel _project;
         private ViewModel _selectedItem;
+        private string _filename;
 
         public MainViewModel()
         {
-            Campaign = new CampaignViewModel();
+            Project = new ProjectViewModel();
         }
 
         #region Commands
@@ -28,9 +32,9 @@ namespace Questor.ViewModels
 
         private void New()
         {
-            if (MessageBox.Show("Clear existing campaign?", "New campaign", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            if (MessageBox.Show("Clear existing Project?", "New Project", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                Campaign = new CampaignViewModel();
+                Project = new ProjectViewModel();
             }
         }
 
@@ -43,12 +47,13 @@ namespace Questor.ViewModels
         {
             OpenFileDialog ofd = new OpenFileDialog
             {
-                DefaultExt = ".campaign",
-                Filter = "campaign|*.campaign"
+                DefaultExt = ".Project",
+                Filter = "Project|*.Project"
             };
             if (ofd.ShowDialog() == true)
             {
-                Campaign = new CampaignViewModel(ofd.FileName.Load<Campaign>());
+                _filename = ofd.FileName;
+                Project = new ProjectViewModel(ofd.FileName.Load<Project>());
             }
 
         }
@@ -60,25 +65,23 @@ namespace Questor.ViewModels
 
         private void Save()
         {
-            SaveFileDialog sfd = new SaveFileDialog
+            if (!string.IsNullOrEmpty(_filename))
             {
-                DefaultExt = ".campaign",
-                Filter = "campaign|*.campaign"
-            };
-            if (sfd.ShowDialog() == true)
-            {
-                XmlSerializerEx.Save(sfd.FileName, Campaign.Model);
+                XmlSerializerEx.Save(_filename, Project.Model);
             }
-        }
-
-        public ICommand RefreshCommand
-        {
-            get { return new TargetCommand(Refresh); }
-        }
-
-        private void Refresh()
-        {
-           
+            else
+            {
+                SaveFileDialog sfd = new SaveFileDialog
+                {
+                    DefaultExt = ".Project",
+                    Filter = "Project|*.Project"
+                };
+                if (sfd.ShowDialog() == true)
+                {
+                    XmlSerializerEx.Save(sfd.FileName, Project.Model);
+                    _filename = sfd.FileName;
+                }
+            }
         }
 
         public ICommand InsertCommand
@@ -119,15 +122,15 @@ namespace Questor.ViewModels
 
         public IEnumerable<ViewModel> Models
         {
-            get { yield return Campaign; }
+            get { yield return Project; }
         }
 
-        public CampaignViewModel Campaign
+        public ProjectViewModel Project
         {
-            get { return _campaign; }
+            get { return _project; }
             set
             {
-                if (SetProperty(ref _campaign, value))
+                if (SetProperty(ref _project, value))
                 {
                     NotifyPropertyChanged(nameof(Models));
                 }
@@ -141,11 +144,117 @@ namespace Questor.ViewModels
         }
 
         #endregion
-    }
 
-    internal interface IEditModel
-    {
-        void Insert();
-        void Delete();
+        #region Generate
+        
+        public ICommand GenerateCommand
+        {
+            get { return new TargetCommand(Generate); }
+        }
+
+        private void WriteFile(string folder, string filename, string text)
+        {
+            Directory.CreateDirectory(folder);
+            File.WriteAllText(Path.Combine(folder, filename), text);
+        }
+
+        private void Generate()
+        {
+            string modFolder = CreateModFolder(Project.Model);
+
+            string infoJson = GenerateJson(Project.Model);
+            WriteFile(modFolder, "info.json", infoJson);
+
+            foreach (Campaign campaign in Project.Model.Campaigns)
+            {
+                string data = GenerateData(campaign);
+
+                WriteFile(Path.Combine(modFolder, "campaigns"), $"{campaign.Name}.lua", data);
+            }
+
+            string control = GenerateControl(Project.Model);
+            WriteFile(modFolder, "control.lua", control);
+
+        }
+
+        private string GenerateControl(Project project)
+        {
+            LuaCodeWriter cw = new LuaCodeWriter();
+
+            foreach (Campaign campaign in project.Campaigns)
+            {
+                cw.AppendLine($@"require(""campaigns.{campaign.Name}"")");
+            }
+
+            cw.OpenLine("function init_questor()");
+            foreach (Campaign campaign in Project.Model.Campaigns)
+            {
+                cw.WriteLine($@"remote.call(""questor"", ""addCampaign"", campaign_{campaign.Name})");
+            }
+            cw.CloseLine("end");
+
+
+            cw.AppendLine("script.on_init(init_questor)");
+            cw.AppendLine("script.on_load(init_questor)");
+
+            return cw.ToString();
+        }
+
+        private string CreateModFolder(Project project)
+        {
+            string appfolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string modFolder = Path.Combine(appfolder, "Factorio", "mods", 
+                $"{project.Name}_{project.VersionMax}.{project.VersionMin}.{project.VersionFix}");
+
+            return modFolder;
+        }
+
+        private string GenerateData(Campaign campaign)
+        {
+            LuaCodeWriter lua = new LuaCodeWriter();
+
+            lua.AddModel($"campaign_{campaign.Name}", campaign);
+
+            return lua.ToString();
+        }
+
+        private string GenerateJson(Project project)
+        {
+           JsonCodeWriter cw = new JsonCodeWriter();
+
+            cw.OpenLine();
+
+            cw.AddElement("name", project.Name, true);
+
+            cw.AddElement("version",  $"{project.VersionMax}.{project.VersionMin}.{project.VersionFix}", true);
+            cw.AddElement("factorio_version", project.FactorioVersion, true);
+            cw.AddElement("title", project.Title, true);
+            cw.AddElement("author", project.Author, true);
+            cw.AddElement("description", project.Description, true);
+
+            cw.LineStart();
+            cw.Append(@"""dependencies"": [""base >= 0.17"", ""Questor >= 0.0.0""");
+
+            foreach (Mod mod in project.Mods)
+            {
+                cw.Append(", ");
+                if (mod.Required)
+                {
+                    cw.Append($@"""{mod.Name} >= {mod.MinimumVersion}""");
+                }
+                else
+                {
+                    cw.Append($@"""? {mod.Name} >= {mod.MinimumVersion}""");
+                }
+            }
+
+            cw.AppendLine(@"]");
+
+            cw.CloseLine();
+
+           return cw.ToString();
+        }
+
+        #endregion
     }
 }

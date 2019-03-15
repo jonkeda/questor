@@ -69,6 +69,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Extensions\MouseEx.cs" />
+    <Compile Include="Generators\JsonCodeWriter.cs" />
+    <Compile Include="Generators\LuaCodeWriter.cs" />
+    <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Contexts\CampaignContext.cs" />
     <Compile Include="Models\Prototypes\DataType.cs" />
     <Compile Include="Models\Prototypes\Force.cs" />
@@ -93,6 +96,9 @@
     <Compile Include="Models\Quests\GoalCollection.cs" />
     <Compile Include="Models\Quests\GoalFunction.cs" />
     <Compile Include="Models\Quests\GoalFunctionCollection.cs" />
+    <Compile Include="Models\Quests\Mod.cs" />
+    <Compile Include="Models\Quests\ModCollection.cs" />
+    <Compile Include="Models\Quests\Project.cs" />
     <Compile Include="Models\Quests\Quest.cs" />
     <Compile Include="Models\Quests\QuestCollection.cs" />
     <Compile Include="Models\Quests\QuestLine.cs" />
@@ -108,6 +114,7 @@
     <Compile Include="Threading\SerialTaskQueue.cs" />
     <Compile Include="Threading\ThreadDispatcher.cs" />
     <Compile Include="Threading\WpfDispatcher.cs" />
+    <Compile Include="UI\CollectionViewModel.cs" />
     <Compile Include="UI\CommandCanExecuteDelegate.cs" />
     <Compile Include="UI\CommandDelegate.cs" />
     <Compile Include="UI\CommandTaskCanExecuteDelegate.cs" />
@@ -165,7 +172,11 @@
     <Compile Include="UI\Icons\ISpinable.cs" />
     <Compile Include="UI\Interfaces\IDialog.cs" />
     <Compile Include="UI\Interfaces\IParentWindow.cs" />
+    <Compile Include="UI\ITreeViewModel.cs" />
+    <Compile Include="UI\IViewModel.cs" />
+    <Compile Include="UI\IViewModelContext.cs" />
     <Compile Include="UI\IWindow.cs" />
+    <Compile Include="UI\ModelCollectionViewModel.cs" />
     <Compile Include="UI\ModelViewModel.cs" />
     <Compile Include="UI\NodeCollectionViewModel.cs" />
     <Compile Include="UI\NodesViewModel.cs" />
@@ -181,17 +192,28 @@
     <Compile Include="UI\TargetTaskCommand.cs" />
     <Compile Include="UI\ViewModel.cs" />
     <Compile Include="UI\ViewModelCollection.cs" />
+    <Compile Include="ViewModels\IEditModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\Other\ProgressViewModel.cs" />
+    <Compile Include="ViewModels\Quests\CampaignCollectionViewModel.cs" />
     <Compile Include="ViewModels\Quests\CampaignViewModel.cs" />
+    <Compile Include="ViewModels\Quests\ModViewModel.cs" />
+    <Compile Include="ViewModels\Quests\CollectionViewModel.cs" />
+    <Compile Include="ViewModels\Quests\DependencyCollectionViewModel.cs" />
     <Compile Include="ViewModels\Quests\DependencyViewModel.cs" />
+    <Compile Include="ViewModels\Quests\GoalCollectionViewModel.cs" />
     <Compile Include="ViewModels\Quests\GoalFunctionViewModel.cs" />
     <Compile Include="ViewModels\Quests\GoalViewModel.cs" />
+    <Compile Include="ViewModels\Quests\ModCollectionViewModel.cs" />
+    <Compile Include="ViewModels\Quests\ModelCollectionViewModel.cs" />
+    <Compile Include="ViewModels\Quests\ProjectViewModel.cs" />
+    <Compile Include="ViewModels\Quests\QuestLineCollectionViewModel.cs" />
     <Compile Include="ViewModels\Quests\QuestLineViewModel.cs" />
     <Compile Include="ViewModels\Quests\QuestViewModel.cs" />
-    <Compile Include="ViewModels\Quests\RewardFunctionViewModel.cs" />
+    <Compile Include="ViewModels\Quests\RewardCollectionViewModel.cs" />
     <Compile Include="ViewModels\Quests\RewardViewModel.cs" />
     <Compile Include="ViewModels\Quests\StoryViewModel.cs" />
+    <Compile Include="ViewModels\Quests\ViewModel.cs" />
     <Compile Include="Views\Other\ProgressWindow.xaml.cs">
       <DependentUpon>ProgressWindow.xaml</DependentUpon>
     </Compile>
@@ -277,6 +299,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Temp\quester.json" />
     <Resource Include="UI\Icons\FontAwesome.otf" />
   </ItemGroup>
   <ItemGroup>

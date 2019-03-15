@@ -1,20 +1,41 @@
-﻿namespace Questor.Models.Quests
+﻿using Questor.Generators;
+
+namespace Questor.Models.Quests
 {
-    public class Reward
+    public class Reward : BaseModel
     {
-        public Reward()
+
+        private string _functionName;
+        private string _value;
+        private int _amount;
+
+        public string FunctionName
         {
-            Name = "new reward";
+            get { return _functionName; }
+            set { SetProperty(ref _functionName, value); }
         }
 
-        public string Name { get; set; }
-        
-        public string Description { get; set; }
+        public string Value
+        {
+            get { return _value; }
+            set { SetProperty(ref _value, value); }
+        }
 
-        public string FunctionName { get; set; }
+        public int Amount
+        {
+            get { return _amount; }
+            set { SetProperty(ref _amount, value); }
+        }
 
-        public string Value { get; set; }
+        public override void RenderData(LuaCodeWriter cw)
+        {
+            cw.OpenLine();
 
-        public int Amount { get; set; }
+            cw.AddField("functionName", FunctionName);
+            cw.AddField("value", Value);
+            cw.AddField("amount", Amount);
+
+            cw.Close();
+        }
     }
 }

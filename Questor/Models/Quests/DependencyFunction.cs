@@ -1,4 +1,6 @@
-﻿namespace Questor.Models.Quests
+﻿using Questor.Models.Prototypes;
+
+namespace Questor.Models.Quests
 {
     public class DependencyFunction
     {
@@ -15,5 +17,7 @@
         public string Name { get; set; }
         
         public string Description { get; set; }
+
+        public DataType DataType { get; set; }
     }
 }

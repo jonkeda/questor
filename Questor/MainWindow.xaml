@@ -7,12 +7,11 @@
         xmlns:viewModel="clr-namespace:Questor.ViewModels"
         xmlns:controls="clr-namespace:Questor.UI.Controls"
         xmlns:quests="clr-namespace:Questor.ViewModels.Quests"
-        xmlns:quests1="clr-namespace:Questor.Models.Quests"
+        xmlns:converters="clr-namespace:Questor.UI.Converters"
         mc:Ignorable="d"
         Icon="Images/Factorio.png"
-
         d:DataContext="{d:DesignInstance IsDesignTimeCreatable=false, Type={x:Type viewModel:MainViewModel}}"
-        Title="Factorio questor" Height="450" Width="800">
+        Title="Questor for Factorio" Height="450" Width="800">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -42,13 +41,14 @@
                 <Button Content="New" Command="{Binding NewCommand}" />
                 <Button Content="Load" Command="{Binding LoadCommand}" />
                 <Button Content="Save" Command="{Binding SaveCommand}" />
+
+                <Button Content="Generate" Command="{Binding GenerateCommand}" />
+
             </StackPanel>
 
             <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
                 <Button Content="Insert" Command="{Binding InsertCommand}"/>
-                <!-- <Button Content="Edit" Command="{Binding EditCommand}"/> -->
                 <Button Content="Delete" Command="{Binding DeleteCommand}"/>
-                <!-- <Button Content="Refresh" Command="{Binding RefreshCommand}"/> -->
             </StackPanel>
             
             <controls:TreeViewEx  Grid.Row="3" Grid.Column="0"  ItemsSource="{Binding Models}" 
@@ -61,44 +61,102 @@
                 </TreeView.ItemContainerStyle>
                 <controls:TreeViewEx.Resources>
 
+                    <HierarchicalDataTemplate DataType="{x:Type quests:ProjectViewModel}" ItemsSource="{Binding Items}">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Model.Name}" />
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:ModCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="Mods" />
+                        </StackPanel>                   
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:ModViewModel}" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Model.Name}" />
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+
+                    <HierarchicalDataTemplate DataType="{x:Type quests:CampaignCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="Campaigns" />
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+
                     <HierarchicalDataTemplate DataType="{x:Type quests:CampaignViewModel}" ItemsSource="{Binding Items}">
-                        <TextBlock Text="{Binding Model.Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Model.Name}" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:QuestLineCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
-                        <TextBlock Text="Questlines" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="Questlines" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:QuestLineViewModel}" ItemsSource="{Binding ModelViewModels}">
-                        <TextBlock Text="{Binding Model.Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Model.Name}" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:QuestViewModel}" ItemsSource="{Binding Items}">
-                        <TextBlock Text="{Binding Model.Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Model.Name}" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:DependencyCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
-                        <TextBlock Text="Dependencies" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="Dependencies" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:DependencyViewModel}" >
-                        <TextBlock Text="{Binding Model.Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Title}" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:GoalCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
-                        <TextBlock Text="Goals" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="Goals" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:GoalViewModel}" >
-                        <TextBlock Text="{Binding Model.Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Title}" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:RewardCollectionViewModel}" ItemsSource="{Binding ModelViewModels}">
-                        <TextBlock Text="Rewards" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="Rewards" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                     <HierarchicalDataTemplate DataType="{x:Type quests:RewardViewModel}" >
-                        <TextBlock Text="{Binding Model.Name}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="*" Visibility="{Binding IsValid, Converter={x:Static converters:Cv.Visibility}, ConverterParameter=!}" Margin="0,0,3,0" />
+                            <TextBlock Text="{Binding Title}" />
+                        </StackPanel>
                     </HierarchicalDataTemplate>
 
                 </controls:TreeViewEx.Resources>
@@ -113,6 +171,55 @@
                       ShowsPreview="True" />
         <ContentControl Grid.Column="2" Grid.Row="2" Content="{Binding SelectedItem}">
             <ContentControl.Resources>
+
+                <DataTemplate DataType="{x:Type quests:ProjectViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Project" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+
+                            <Label Content="Version" Style="{StaticResource MetroLabel}" />
+                            <StackPanel Orientation="Horizontal">
+                                <mah:NumericUpDown Value="{Binding Model.VersionMax}" />
+                                <mah:NumericUpDown Value="{Binding Model.VersionMin}" />
+                                <mah:NumericUpDown Value="{Binding Model.VersionFix}" />
+                            </StackPanel>
+
+                            <Label Content="Factorio version" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.FactorioVersion}"/>
+
+                            <Label Content="Title" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Title}"/>
+
+                            <Label Content="Author" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Author}"/>
+
+                            <Label Content="Description" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Description}"/>
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:CampaignCollectionViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Campaigns" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                    </Grid>
+                </DataTemplate>
+
                 <DataTemplate DataType="{x:Type quests:CampaignViewModel}">
                     <Grid>
                         <Grid.RowDefinitions>
@@ -125,12 +232,52 @@
                         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
                             <Label Content="Name" Style="{StaticResource MetroLabel}" />
                             <TextBox Text="{Binding Model.Name}"/>
+                            
+                            <Label Content="Title" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Title}"/>
+
                             <Label Content="Description" Style="{StaticResource MetroLabel}" />
                             <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
                         </StackPanel>
 
                     </Grid>
                 </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:ModCollectionViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Mods" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                    </Grid>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type quests:ModViewModel}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Mod" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+
+                        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
+                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Name}"/>
+
+                            <Label Content="Required" Style="{StaticResource MetroLabel}" />
+                            <CheckBox IsChecked="{Binding Model.Required}"/>
+
+                            <Label Content="Minimum version" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.MinimumVersion}" />
+                        </StackPanel>
+
+                    </Grid>
+                </DataTemplate>
+
 
                 <DataTemplate DataType="{x:Type quests:QuestLineCollectionViewModel}">
                     <Grid>
@@ -156,6 +303,10 @@
                         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
                             <Label Content="Name" Style="{StaticResource MetroLabel}" />
                             <TextBox Text="{Binding Model.Name}"/>
+                            
+                            <Label Content="Title" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Title}"/>
+
                             <Label Content="Description" Style="{StaticResource MetroLabel}" />
                             <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
                         </StackPanel>
@@ -175,6 +326,10 @@
                         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
                             <Label Content="Name" Style="{StaticResource MetroLabel}" />
                             <TextBox Text="{Binding Model.Name}"/>
+                            
+                            <Label Content="Title" Style="{StaticResource MetroLabel}" />
+                            <TextBox Text="{Binding Model.Title}"/>
+
                             <Label Content="Description" Style="{StaticResource MetroLabel}" />
                             <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
                         </StackPanel>
@@ -204,13 +359,17 @@
                         <Label Grid.Row="0" Content="Dependency" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
 
                         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
-                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
-                            <TextBox Text="{Binding Model.Name}"/>
 
                             <Label Content="Function" Style="{StaticResource MetroLabel}"  />
-                            <ComboBox ItemsSource="{Binding Functions}" SelectedValue="{Binding Model.FunctionName}" 
+                            <ComboBox ItemsSource="{Binding Functions}" 
                                       SelectedItem="{Binding Function}"
-                                      DisplayMemberPath="Description" SelectedValuePath="Name" />
+                                      DisplayMemberPath="Description"  />
+
+                            <Label Content="Values" Style="{StaticResource MetroLabel}"  />
+                            <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
+
+                            <Label Content="Amount" Style="{StaticResource MetroLabel}"  />
+                            <mah:NumericUpDown Value="{Binding Model.Amount}"/>
 
                         </StackPanel>
 
@@ -241,16 +400,10 @@
 
                         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
                             
-                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
-                            <TextBox Text="{Binding Model.Name}"/>
-                            
-                            <Label Content="Description" Style="{StaticResource MetroLabel}" />
-                            <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
-
                             <Label Content="Function" Style="{StaticResource MetroLabel}"  />
-                            <ComboBox ItemsSource="{Binding Functions}" SelectedValue="{Binding Model.FunctionName}" 
+                            <ComboBox ItemsSource="{Binding Functions}"  
                                       SelectedItem="{Binding Function}"
-                                      DisplayMemberPath="Description" SelectedValuePath="Name" />
+                                      DisplayMemberPath="Description"  />
 
                             <Label Content="Values" Style="{StaticResource MetroLabel}"  />
                             <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
@@ -286,16 +439,10 @@
 
                         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
 
-                            <Label Content="Name" Style="{StaticResource MetroLabel}" />
-                            <TextBox Text="{Binding Model.Name}"/>
-
-                            <Label Content="Description" Style="{StaticResource MetroLabel}"  />
-                            <TextBox Text="{Binding Model.Description}" Height="100" Style="{StaticResource MetroTextNote}" />
-
                             <Label Content="Function" Style="{StaticResource MetroLabel}"  />
-                            <ComboBox ItemsSource="{Binding Functions}" SelectedValue="{Binding Model.FunctionName}" 
+                            <ComboBox ItemsSource="{Binding Functions}" 
                                       SelectedItem="{Binding Function}"
-                                      DisplayMemberPath="Description" SelectedValuePath="Name" />
+                                      DisplayMemberPath="Description"  />
 
                             <Label Content="Values" Style="{StaticResource MetroLabel}"  />
                             <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
