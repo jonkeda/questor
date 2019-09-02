@@ -224,1148 +224,1718 @@
   "recipes": [
     {
       "name": "accumulator",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "advanced-circuit",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "arithmetic-combinator",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "artillery-shell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "artillery-targeting-remote",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "artillery-turret",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "artillery-wagon",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "assembling-machine-1",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "name": "assembling-machine-2",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "name": "assembling-machine-3",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "name": "atomic-bomb",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "automation-science-pack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
     },
     {
       "name": "battery",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "battery-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "battery-mk2-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "beacon",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "belt-immunity-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "big-electric-pole",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "name": "boiler",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "burner-inserter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "name": "burner-mining-drill",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "name": "cannon-shell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "car",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "cargo-wagon",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "centrifuge",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "name": "chemical-plant",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "name": "chemical-science-pack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
     },
     {
       "name": "cliff-explosives",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "terrain"
     },
     {
       "name": "cluster-grenade",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "combat-shotgun",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "concrete",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "logistics",
+      "subgroup": "terrain"
     },
     {
       "name": "constant-combinator",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "construction-robot",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "copper-cable",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "copper-plate",
-      "category": "smelting"
+      "category": "smelting",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "decider-combinator",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "defender-capsule",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "destroyer-capsule",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "discharge-defense-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "discharge-defense-remote",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "distractor-capsule",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "effectivity-module",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "effectivity-module-2",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "effectivity-module-3",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "electric-energy-interface",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "electric-engine-unit",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "electric-furnace",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "smelting-machine"
     },
     {
       "name": "electric-mining-drill",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "name": "electronic-circuit",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "empty-barrel",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "energy-shield-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "energy-shield-mk2-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "engine-unit",
-      "category": "advanced-crafting"
+      "category": "advanced-crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "exoskeleton-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "explosive-cannon-shell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "explosive-rocket",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "explosive-uranium-cannon-shell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "explosives",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "express-loader",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "express-splitter",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "express-transport-belt",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "express-underground-belt",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "fast-inserter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "name": "fast-loader",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "fast-splitter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "fast-transport-belt",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "fast-underground-belt",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "filter-inserter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "name": "firearm-magazine",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "flamethrower",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "flamethrower-ammo",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "flamethrower-turret",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "fluid-wagon",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "flying-robot-frame",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "fusion-reactor-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "gate",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "green-wire",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "grenade",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "gun-turret",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "hazard-concrete",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "terrain"
     },
     {
       "name": "heat-exchanger",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "heat-pipe",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "heavy-armor",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "armor"
     },
     {
       "name": "inserter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "name": "iron-chest",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "name": "iron-gear-wheel",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "iron-plate",
-      "category": "smelting"
+      "category": "smelting",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "iron-stick",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "lab",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "name": "land-mine",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "landfill",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "terrain"
     },
     {
       "name": "laser-turret",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "light-armor",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "armor"
     },
     {
       "name": "loader",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "locomotive",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "logistic-chest-active-provider",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "logistic-chest-buffer",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "logistic-chest-passive-provider",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "logistic-chest-requester",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "logistic-chest-storage",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "logistic-robot",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "logistic-science-pack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
     },
     {
       "name": "long-handed-inserter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "name": "low-density-structure",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "lubricant",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "medium-electric-pole",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "name": "military-science-pack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
     },
     {
       "name": "modular-armor",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "armor"
     },
     {
       "name": "night-vision-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "nuclear-fuel",
-      "category": "centrifuging"
+      "category": "centrifuging",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "nuclear-reactor",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "offshore-pump",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "name": "oil-refinery",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "name": "personal-laser-defense-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "personal-roboport-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "personal-roboport-mk2-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "piercing-rounds-magazine",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "piercing-shotgun-shell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "pipe",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "name": "pipe-to-ground",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "name": "pistol",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "plastic-bar",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "player-port",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "poison-capsule",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "power-armor",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "armor"
     },
     {
       "name": "power-armor-mk2",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "armor"
     },
     {
       "name": "power-switch",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "processing-unit",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "production-science-pack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
     },
     {
       "name": "productivity-module",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "productivity-module-2",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "productivity-module-3",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "programmable-speaker",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "pump",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "name": "pumpjack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "name": "radar",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "rail",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "rail-chain-signal",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "rail-signal",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "railgun",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "railgun-dart",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "red-wire",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "refined-concrete",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "logistics",
+      "subgroup": "terrain"
     },
     {
       "name": "refined-hazard-concrete",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "terrain"
     },
     {
       "name": "repair-pack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "tool"
     },
     {
       "name": "roboport",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "name": "rocket",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "rocket-control-unit",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "rocket-fuel",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "rocket-launcher",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "rocket-part",
-      "category": "rocket-building"
+      "category": "rocket-building",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "rocket-silo",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "satellite",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "shotgun",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "shotgun-shell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "slowdown-capsule",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "name": "small-electric-pole",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "name": "small-lamp",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "name": "small-plane",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "solar-panel",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "solar-panel-equipment",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "equipment"
     },
     {
       "name": "speed-module",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "speed-module-2",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "speed-module-3",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "name": "splitter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "stack-filter-inserter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "name": "stack-inserter",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "name": "steam-engine",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "steam-turbine",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "name": "steel-chest",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "name": "steel-furnace",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "smelting-machine"
     },
     {
       "name": "steel-plate",
-      "category": "smelting"
+      "category": "smelting",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "stone-brick",
-      "category": "smelting"
+      "category": "smelting",
+      "group": "logistics",
+      "subgroup": "terrain"
     },
     {
       "name": "stone-furnace",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "production",
+      "subgroup": "smelting-machine"
     },
     {
       "name": "stone-wall",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "name": "storage-tank",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "name": "submachine-gun",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "name": "substation",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "name": "sulfur",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "sulfuric-acid",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "tank",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "train-stop",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "name": "transport-belt",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "underground-belt",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "name": "uranium-cannon-shell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "uranium-fuel-cell",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "uranium-rounds-magazine",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "combat",
+      "subgroup": "ammo"
     },
     {
       "name": "utility-science-pack",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
     },
     {
       "name": "wooden-chest",
-      "category": "crafting"
+      "category": "crafting",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "name": "basic-oil-processing",
-      "category": "oil-processing"
+      "category": "oil-processing",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "advanced-oil-processing",
-      "category": "oil-processing"
+      "category": "oil-processing",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "coal-liquefaction",
-      "category": "oil-processing"
+      "category": "oil-processing",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "fill-crude-oil-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
     },
     {
       "name": "fill-heavy-oil-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
     },
     {
       "name": "fill-light-oil-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
     },
     {
       "name": "fill-lubricant-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
     },
     {
       "name": "fill-petroleum-gas-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
     },
     {
       "name": "fill-sulfuric-acid-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
     },
     {
       "name": "fill-water-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
     },
     {
       "name": "heavy-oil-cracking",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "light-oil-cracking",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "solid-fuel-from-light-oil",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "solid-fuel-from-petroleum-gas",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "solid-fuel-from-heavy-oil",
-      "category": "chemistry"
+      "category": "chemistry",
+      "group": "intermediate-products",
+      "subgroup": "fluid-recipes"
     },
     {
       "name": "empty-crude-oil-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "empty-barrel"
     },
     {
       "name": "empty-heavy-oil-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "empty-barrel"
     },
     {
       "name": "empty-light-oil-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "empty-barrel"
     },
     {
       "name": "empty-lubricant-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "empty-barrel"
     },
     {
       "name": "empty-petroleum-gas-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "empty-barrel"
     },
     {
       "name": "empty-sulfuric-acid-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "empty-barrel"
     },
     {
       "name": "empty-water-barrel",
-      "category": "crafting-with-fluid"
+      "category": "crafting-with-fluid",
+      "group": "intermediate-products",
+      "subgroup": "empty-barrel"
     },
     {
       "name": "uranium-processing",
-      "category": "centrifuging"
+      "category": "centrifuging",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
     },
     {
       "name": "nuclear-fuel-reprocessing",
-      "category": "centrifuging"
+      "category": "centrifuging",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     },
     {
       "name": "kovarex-enrichment-process",
-      "category": "centrifuging"
+      "category": "centrifuging",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
     }
   ],
   "entities": [
     {
       "type": "container",
-      "name": "wooden-chest"
+      "name": "wooden-chest",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "type": "container",
-      "name": "iron-chest"
+      "name": "iron-chest",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "type": "container",
-      "name": "steel-chest"
+      "name": "steel-chest",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "type": "container",
-      "name": "compilatron-chest"
+      "name": "compilatron-chest",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "type": "storage-tank",
-      "name": "storage-tank"
+      "name": "storage-tank",
+      "group": "logistics",
+      "subgroup": "storage"
     },
     {
       "type": "transport-belt",
-      "name": "transport-belt"
+      "name": "transport-belt",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "transport-belt",
-      "name": "fast-transport-belt"
+      "name": "fast-transport-belt",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "transport-belt",
-      "name": "express-transport-belt"
+      "name": "express-transport-belt",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "underground-belt",
-      "name": "underground-belt"
+      "name": "underground-belt",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "underground-belt",
-      "name": "fast-underground-belt"
+      "name": "fast-underground-belt",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "underground-belt",
-      "name": "express-underground-belt"
+      "name": "express-underground-belt",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "splitter",
-      "name": "splitter"
+      "name": "splitter",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "splitter",
-      "name": "fast-splitter"
+      "name": "fast-splitter",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "splitter",
-      "name": "express-splitter"
+      "name": "express-splitter",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "loader",
-      "name": "loader"
+      "name": "loader",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "loader",
-      "name": "fast-loader"
+      "name": "fast-loader",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "loader",
-      "name": "express-loader"
+      "name": "express-loader",
+      "group": "logistics",
+      "subgroup": "belt"
     },
     {
       "type": "inserter",
-      "name": "burner-inserter"
+      "name": "burner-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "type": "inserter",
-      "name": "inserter"
+      "name": "inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "type": "inserter",
-      "name": "long-handed-inserter"
+      "name": "long-handed-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "type": "inserter",
-      "name": "fast-inserter"
+      "name": "fast-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "type": "inserter",
-      "name": "filter-inserter"
+      "name": "filter-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "type": "inserter",
-      "name": "stack-inserter"
+      "name": "stack-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "type": "inserter",
-      "name": "stack-filter-inserter"
+      "name": "stack-filter-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
     },
     {
       "type": "electric-pole",
-      "name": "small-electric-pole"
+      "name": "small-electric-pole",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "type": "electric-pole",
-      "name": "medium-electric-pole"
+      "name": "medium-electric-pole",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "type": "electric-pole",
-      "name": "big-electric-pole"
+      "name": "big-electric-pole",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "type": "electric-pole",
-      "name": "substation"
+      "name": "substation",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "type": "pipe",
-      "name": "pipe"
+      "name": "pipe",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "type": "pipe-to-ground",
-      "name": "pipe-to-ground"
+      "name": "pipe-to-ground",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "type": "pump",
-      "name": "pump"
+      "name": "pump",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
     },
     {
       "type": "curved-rail",
-      "name": "curved-rail"
+      "name": "curved-rail",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "straight-rail",
-      "name": "straight-rail"
+      "name": "straight-rail",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "train-stop",
-      "name": "train-stop"
+      "name": "train-stop",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "rail-signal",
-      "name": "rail-signal"
+      "name": "rail-signal",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "rail-chain-signal",
-      "name": "rail-chain-signal"
+      "name": "rail-chain-signal",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "locomotive",
-      "name": "locomotive"
+      "name": "locomotive",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "cargo-wagon",
-      "name": "cargo-wagon"
+      "name": "cargo-wagon",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "fluid-wagon",
-      "name": "fluid-wagon"
+      "name": "fluid-wagon",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "artillery-wagon",
-      "name": "artillery-wagon"
+      "name": "artillery-wagon",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "car",
-      "name": "car"
+      "name": "car",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "car",
-      "name": "tank"
+      "name": "tank",
+      "group": "logistics",
+      "subgroup": "transport"
     },
     {
       "type": "logistic-robot",
-      "name": "logistic-robot"
+      "name": "logistic-robot",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "construction-robot",
-      "name": "construction-robot"
+      "name": "construction-robot",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "logistic-container",
-      "name": "logistic-chest-active-provider"
+      "name": "logistic-chest-active-provider",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "logistic-container",
-      "name": "logistic-chest-passive-provider"
+      "name": "logistic-chest-passive-provider",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "logistic-container",
-      "name": "logistic-chest-storage"
+      "name": "logistic-chest-storage",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "logistic-container",
-      "name": "logistic-chest-buffer"
+      "name": "logistic-chest-buffer",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "logistic-container",
-      "name": "logistic-chest-requester"
+      "name": "logistic-chest-requester",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "roboport",
-      "name": "roboport"
+      "name": "roboport",
+      "group": "logistics",
+      "subgroup": "logistic-network"
     },
     {
       "type": "lamp",
-      "name": "small-lamp"
+      "name": "small-lamp",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "type": "arithmetic-combinator",
-      "name": "arithmetic-combinator"
+      "name": "arithmetic-combinator",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "type": "decider-combinator",
-      "name": "decider-combinator"
+      "name": "decider-combinator",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "type": "constant-combinator",
-      "name": "constant-combinator"
+      "name": "constant-combinator",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "type": "power-switch",
-      "name": "power-switch"
+      "name": "power-switch",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "type": "programmable-speaker",
-      "name": "programmable-speaker"
+      "name": "programmable-speaker",
+      "group": "logistics",
+      "subgroup": "circuit-network"
     },
     {
       "type": "boiler",
-      "name": "boiler"
+      "name": "boiler",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "generator",
-      "name": "steam-engine"
+      "name": "steam-engine",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "generator",
-      "name": "steam-turbine"
+      "name": "steam-turbine",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "solar-panel",
-      "name": "solar-panel"
+      "name": "solar-panel",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "accumulator",
-      "name": "accumulator"
+      "name": "accumulator",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "reactor",
-      "name": "nuclear-reactor"
+      "name": "nuclear-reactor",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "boiler",
-      "name": "heat-exchanger"
+      "name": "heat-exchanger",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "heat-pipe",
-      "name": "heat-pipe"
+      "name": "heat-pipe",
+      "group": "production",
+      "subgroup": "energy"
     },
     {
       "type": "mining-drill",
-      "name": "burner-mining-drill"
+      "name": "burner-mining-drill",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "type": "mining-drill",
-      "name": "electric-mining-drill"
+      "name": "electric-mining-drill",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "type": "offshore-pump",
-      "name": "offshore-pump"
+      "name": "offshore-pump",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "type": "mining-drill",
-      "name": "pumpjack"
+      "name": "pumpjack",
+      "group": "production",
+      "subgroup": "extraction-machine"
     },
     {
       "type": "furnace",
       "name": "stone-furnace",
-      "categories": { "smelting": true }
+      "categories": { "smelting": true },
+      "group": "production",
+      "subgroup": "smelting-machine"
     },
     {
       "type": "furnace",
       "name": "steel-furnace",
-      "categories": { "smelting": true }
+      "categories": { "smelting": true },
+      "group": "production",
+      "subgroup": "smelting-machine"
     },
     {
       "type": "furnace",
       "name": "electric-furnace",
-      "categories": { "smelting": true }
+      "categories": { "smelting": true },
+      "group": "production",
+      "subgroup": "smelting-machine"
     },
     {
       "type": "assembling-machine",
@@ -1374,7 +1944,9 @@
         "crafting": true,
         "basic-crafting": true,
         "advanced-crafting": true
-      }
+      },
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "assembling-machine",
@@ -1383,7 +1955,9 @@
         "crafting": true,
         "basic-crafting": true,
         "advanced-crafting": true
-      }
+      },
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "assembling-machine",
@@ -1393,7 +1967,9 @@
         "crafting": true,
         "advanced-crafting": true,
         "crafting-with-fluid": true
-      }
+      },
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "assembling-machine",
@@ -1403,1216 +1979,2698 @@
         "crafting": true,
         "advanced-crafting": true,
         "crafting-with-fluid": true
-      }
+      },
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "assembling-machine",
       "name": "oil-refinery",
-      "categories": { "oil-processing": true }
+      "categories": { "oil-processing": true },
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "assembling-machine",
       "name": "chemical-plant",
-      "categories": { "chemistry": true }
+      "categories": { "chemistry": true },
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "assembling-machine",
       "name": "centrifuge",
-      "categories": { "centrifuging": true }
+      "categories": { "centrifuging": true },
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "lab",
-      "name": "escape-pod-lab"
+      "name": "escape-pod-lab",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "lab",
-      "name": "lab"
+      "name": "lab",
+      "group": "production",
+      "subgroup": "production-machine"
     },
     {
       "type": "beacon",
-      "name": "beacon"
+      "name": "beacon",
+      "group": "production",
+      "subgroup": "module"
     },
     {
       "type": "land-mine",
-      "name": "land-mine"
+      "name": "land-mine",
+      "group": "combat",
+      "subgroup": "gun"
     },
     {
       "type": "wall",
-      "name": "stone-wall"
+      "name": "stone-wall",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "gate",
-      "name": "gate"
+      "name": "gate",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "ammo-turret",
-      "name": "gun-turret"
+      "name": "gun-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "electric-turret",
-      "name": "laser-turret"
+      "name": "laser-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "fluid-turret",
-      "name": "flamethrower-turret"
+      "name": "flamethrower-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "artillery-turret",
-      "name": "artillery-turret"
+      "name": "artillery-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "radar",
-      "name": "radar"
+      "name": "radar",
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "rocket-silo",
       "name": "rocket-silo",
-      "categories": { "rocket-building": true }
+      "categories": { "rocket-building": true },
+      "group": "combat",
+      "subgroup": "defensive-structure"
     },
     {
       "type": "infinity-container",
-      "name": "infinity-chest"
+      "name": "infinity-chest",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "simple-entity-with-force",
-      "name": "simple-entity-with-force"
+      "name": "simple-entity-with-force",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "simple-entity-with-owner",
-      "name": "simple-entity-with-owner"
+      "name": "simple-entity-with-owner",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "electric-energy-interface",
-      "name": "electric-energy-interface"
-    },
-    {
-      "type": "electric-energy-interface",
-      "name": "escape-pod-power"
+      "name": "electric-energy-interface",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "heat-interface",
-      "name": "heat-interface"
+      "name": "heat-interface",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "infinity-pipe",
-      "name": "infinity-pipe"
+      "name": "infinity-pipe",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "player-port",
-      "name": "player-port"
+      "name": "player-port",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "type": "electric-energy-interface",
+      "name": "escape-pod-power",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "cliff",
-      "name": "cliff"
+      "name": "cliff",
+      "group": "environment",
+      "subgroup": "cliffs"
     },
     {
       "type": "player",
       "name": "player",
-      "categories": { "crafting": true }
+      "categories": { "crafting": true },
+      "group": "environment",
+      "subgroup": "creatures"
     },
     {
       "type": "fish",
-      "name": "fish"
+      "name": "fish",
+      "group": "environment",
+      "subgroup": "creatures"
     },
     {
       "type": "tree",
-      "name": "tree-01"
+      "name": "tree-01",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-02"
+      "name": "tree-02",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-03"
+      "name": "tree-03",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-04"
+      "name": "tree-04",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-05"
+      "name": "tree-05",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-09"
+      "name": "tree-09",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-02-red"
+      "name": "tree-02-red",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-07"
+      "name": "tree-07",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-06"
+      "name": "tree-06",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-06-brown"
+      "name": "tree-06-brown",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-09-brown"
+      "name": "tree-09-brown",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-09-red"
+      "name": "tree-09-red",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-08"
+      "name": "tree-08",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-08-brown"
+      "name": "tree-08-brown",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "tree-08-red"
+      "name": "tree-08-red",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "dead-dry-hairy-tree"
+      "name": "dead-dry-hairy-tree",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "dead-grey-trunk"
+      "name": "dead-grey-trunk",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "dead-tree-desert"
+      "name": "dead-tree-desert",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "dry-hairy-tree"
+      "name": "dry-hairy-tree",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "tree",
-      "name": "dry-tree"
+      "name": "dry-tree",
+      "group": "environment",
+      "subgroup": "trees"
     },
     {
       "type": "simple-entity",
-      "name": "rock-huge"
+      "name": "rock-huge",
+      "group": "environment",
+      "subgroup": "grass"
     },
     {
       "type": "simple-entity",
-      "name": "rock-big"
+      "name": "rock-big",
+      "group": "environment",
+      "subgroup": "grass"
     },
     {
       "type": "corpse",
-      "name": "small-biter-corpse"
+      "name": "small-biter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "medium-biter-corpse"
+      "name": "medium-biter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "behemoth-biter-corpse"
+      "name": "behemoth-biter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "big-biter-corpse"
+      "name": "big-biter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "biter-spawner-corpse"
+      "name": "biter-spawner-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "behemoth-spitter-corpse"
+      "name": "behemoth-spitter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "big-spitter-corpse"
+      "name": "big-spitter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "medium-spitter-corpse"
+      "name": "medium-spitter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "small-spitter-corpse"
+      "name": "small-spitter-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "spitter-spawner-corpse"
+      "name": "spitter-spawner-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "small-worm-corpse"
+      "name": "small-worm-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "medium-worm-corpse"
+      "name": "medium-worm-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "big-worm-corpse"
+      "name": "big-worm-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "behemoth-worm-corpse"
+      "name": "behemoth-worm-corpse",
+      "group": "environment",
+      "subgroup": "corpses"
     },
     {
       "type": "corpse",
-      "name": "small-remnants"
+      "name": "small-remnants",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "medium-remnants"
+      "name": "medium-remnants",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "big-remnants"
+      "name": "big-remnants",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "rail-remnants",
-      "name": "straight-rail-remnants"
+      "name": "straight-rail-remnants",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "rail-remnants",
-      "name": "curved-rail-remnants"
+      "name": "curved-rail-remnants",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "small-scorchmark"
+      "name": "small-scorchmark",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-01-stump"
+      "name": "tree-01-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-02-stump"
+      "name": "tree-02-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-03-stump"
+      "name": "tree-03-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-04-stump"
+      "name": "tree-04-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-05-stump"
+      "name": "tree-05-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-06-stump"
+      "name": "tree-06-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-07-stump"
+      "name": "tree-07-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-08-stump"
+      "name": "tree-08-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "tree-09-stump"
+      "name": "tree-09-stump",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "corpse",
-      "name": "wall-remnants"
+      "name": "wall-remnants",
+      "group": "environment",
+      "subgroup": "remnants"
     },
     {
       "type": "simple-entity",
-      "name": "sand-rock-big"
+      "name": "sand-rock-big",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "simple-entity",
-      "name": "assembler-wreck"
+      "name": "assembler-wreck",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "container",
-      "name": "big-ship-wreck-1"
+      "name": "big-ship-wreck-1",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "simple-entity",
-      "name": "lab-wreck"
+      "name": "lab-wreck",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "container",
-      "name": "big-ship-wreck-2"
+      "name": "big-ship-wreck-2",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "container",
-      "name": "big-ship-wreck-3"
+      "name": "big-ship-wreck-3",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "simple-entity",
-      "name": "medium-ship-wreck"
+      "name": "medium-ship-wreck",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "simple-entity",
-      "name": "mineable-wreckage"
+      "name": "mineable-wreckage",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "simple-entity",
-      "name": "small-ship-wreck"
+      "name": "small-ship-wreck",
+      "group": "environment",
+      "subgroup": "wrecks"
     },
     {
       "type": "unit",
-      "name": "compilatron"
+      "name": "compilatron",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "small-biter"
+      "name": "small-biter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "medium-biter"
+      "name": "medium-biter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "big-biter"
+      "name": "big-biter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "behemoth-biter"
+      "name": "behemoth-biter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "small-spitter"
+      "name": "small-spitter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "turret",
-      "name": "small-worm-turret"
+      "name": "small-worm-turret",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "medium-spitter"
+      "name": "medium-spitter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "turret",
-      "name": "medium-worm-turret"
+      "name": "medium-worm-turret",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "behemoth-spitter"
+      "name": "behemoth-spitter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit",
-      "name": "big-spitter"
+      "name": "big-spitter",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "turret",
-      "name": "big-worm-turret"
+      "name": "big-worm-turret",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "turret",
-      "name": "behemoth-worm-turret"
+      "name": "behemoth-worm-turret",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit-spawner",
-      "name": "biter-spawner"
+      "name": "biter-spawner",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "unit-spawner",
-      "name": "spitter-spawner"
+      "name": "spitter-spawner",
+      "group": "enemies",
+      "subgroup": "enemies"
     },
     {
       "type": "combat-robot",
-      "name": "defender"
+      "name": "defender",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "type": "combat-robot",
-      "name": "distractor"
+      "name": "distractor",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "type": "combat-robot",
-      "name": "destroyer"
+      "name": "destroyer",
+      "group": "combat",
+      "subgroup": "capsule"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-spitter-behemoth"
+      "name": "acid-splash-fire-spitter-behemoth",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-spitter-big"
+      "name": "acid-splash-fire-spitter-big",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-spitter-medium"
+      "name": "acid-splash-fire-spitter-medium",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-spitter-small"
+      "name": "acid-splash-fire-spitter-small",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-worm-behemoth"
+      "name": "acid-splash-fire-worm-behemoth",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-worm-big"
+      "name": "acid-splash-fire-worm-big",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-worm-medium"
+      "name": "acid-splash-fire-worm-medium",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "acid-splash-fire-worm-small"
+      "name": "acid-splash-fire-worm-small",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "sticker",
-      "name": "acid-sticker-behemoth"
+      "name": "acid-sticker-behemoth",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "sticker",
-      "name": "acid-sticker-big"
+      "name": "acid-sticker-big",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "sticker",
-      "name": "acid-sticker-medium"
+      "name": "acid-sticker-medium",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "sticker",
-      "name": "acid-sticker-small"
+      "name": "acid-sticker-small",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-spitter-behemoth"
+      "name": "acid-stream-spitter-behemoth",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-spitter-big"
+      "name": "acid-stream-spitter-big",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-spitter-medium"
+      "name": "acid-stream-spitter-medium",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-spitter-small"
+      "name": "acid-stream-spitter-small",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-worm-behemoth"
+      "name": "acid-stream-worm-behemoth",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-worm-big"
+      "name": "acid-stream-worm-big",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-worm-medium"
+      "name": "acid-stream-worm-medium",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "acid-stream-worm-small"
+      "name": "acid-stream-worm-small",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "artillery-cannon-muzzle-flash"
+      "name": "artillery-cannon-muzzle-flash",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "artillery-flare",
-      "name": "artillery-flare"
+      "name": "artillery-flare",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "artillery-projectile",
-      "name": "artillery-projectile"
+      "name": "artillery-projectile",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "atomic-bomb-wave"
+      "name": "atomic-bomb-wave",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "atomic-rocket"
+      "name": "atomic-rocket",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "big-artillery-explosion"
+      "name": "big-artillery-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "big-explosion"
+      "name": "big-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "big-ship-wreck-grass"
+      "name": "big-ship-wreck-grass",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "blood-explosion-big"
+      "name": "blood-explosion-big",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "blood-explosion-huge"
+      "name": "blood-explosion-huge",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "blood-explosion-small"
+      "name": "blood-explosion-small",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle-source",
-      "name": "blood-fountain"
+      "name": "blood-fountain",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle-source",
-      "name": "blood-fountain-big"
+      "name": "blood-fountain-big",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "blood-particle"
+      "name": "blood-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "blue-laser"
+      "name": "blue-laser",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "branch-particle"
+      "name": "branch-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-asterisk"
+      "name": "brown-asterisk",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-cane-cluster"
+      "name": "brown-cane-cluster",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-cane-single"
+      "name": "brown-cane-single",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-carpet-grass"
+      "name": "brown-carpet-grass",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-coral-mini"
+      "name": "brown-coral-mini",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-fluff"
+      "name": "brown-fluff",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-fluff-dry"
+      "name": "brown-fluff-dry",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "brown-hairy-grass"
+      "name": "brown-hairy-grass",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "cannon-projectile"
+      "name": "cannon-projectile",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "character-corpse",
-      "name": "character-corpse"
+      "name": "character-corpse",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "cliff-explosives"
+      "name": "cliff-explosives",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "cluster-grenade"
+      "name": "cluster-grenade",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "coal-particle"
+      "name": "coal-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "speech-bubble",
-      "name": "compi-speech-bubble"
+      "name": "compi-speech-bubble",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "copper-ore-particle"
+      "name": "copper-ore-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "deconstructible-tile-proxy",
-      "name": "deconstructible-tile-proxy"
+      "name": "deconstructible-tile-proxy",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "defender-capsule"
+      "name": "defender-capsule",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "destroyer-capsule"
+      "name": "destroyer-capsule",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "distractor-capsule"
+      "name": "distractor-capsule",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "flame-thrower-explosion",
-      "name": "dummy-flame-thrower-explosion"
+      "name": "dummy-flame-thrower-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "beam",
-      "name": "electric-beam"
+      "name": "electric-beam",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "beam",
-      "name": "electric-beam-no-sound"
+      "name": "electric-beam-no-sound",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "entity-ghost",
-      "name": "entity-ghost"
+      "name": "entity-ghost",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "explosion"
+      "name": "explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "explosion-gunshot"
+      "name": "explosion-gunshot",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "explosion-gunshot-small"
+      "name": "explosion-gunshot-small",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "explosion-hit"
+      "name": "explosion-hit",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "explosion-remnants-particle"
+      "name": "explosion-remnants-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "explosive-cannon-projectile"
+      "name": "explosive-cannon-projectile",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "explosive-rocket"
+      "name": "explosive-rocket",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "explosive-uranium-cannon-projectile"
+      "name": "explosive-uranium-cannon-projectile",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "arrow",
-      "name": "fake-selection-box-2x2"
+      "name": "fake-selection-box-2x2",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "fire-flame"
+      "name": "fire-flame",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "fire",
-      "name": "fire-flame-on-tree"
+      "name": "fire-flame-on-tree",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "sticker",
-      "name": "fire-sticker"
+      "name": "fire-sticker",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "flamethrower-fire-stream"
+      "name": "flamethrower-fire-stream",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "flying-text",
-      "name": "flying-text"
+      "name": "flying-text",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "garballo"
+      "name": "garballo",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "garballo-mini-dry"
+      "name": "garballo-mini-dry",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-asterisk"
+      "name": "green-asterisk",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-bush-mini"
+      "name": "green-bush-mini",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-carpet-grass"
+      "name": "green-carpet-grass",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-coral-mini"
+      "name": "green-coral-mini",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-hairy-grass"
+      "name": "green-hairy-grass",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-pita"
+      "name": "green-pita",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-pita-mini"
+      "name": "green-pita-mini",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "green-small-grass"
+      "name": "green-small-grass",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "grenade"
+      "name": "grenade",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "ground-explosion"
+      "name": "ground-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "handheld-flamethrower-fire-stream"
+      "name": "handheld-flamethrower-fire-stream",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "highlight-box",
-      "name": "highlight-box"
+      "name": "highlight-box",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "iron-ore-particle"
+      "name": "iron-ore-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "item-entity",
-      "name": "item-on-ground"
+      "name": "item-on-ground",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "item-request-proxy",
-      "name": "item-request-proxy"
+      "name": "item-request-proxy",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "laser"
+      "name": "laser",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "beam",
-      "name": "laser-beam"
+      "name": "laser-beam",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "laser-bubble"
+      "name": "laser-bubble",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "leaf-particle",
-      "name": "leaf-particle"
+      "name": "leaf-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "massive-explosion"
+      "name": "massive-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "medium-explosion"
+      "name": "medium-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "arrow",
-      "name": "orange-arrow-with-circle"
+      "name": "orange-arrow-with-circle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "orange-coral-mini"
+      "name": "orange-coral-mini",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "piercing-shotgun-pellet"
+      "name": "piercing-shotgun-pellet",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "poison-capsule"
+      "name": "poison-capsule",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "smoke-with-trigger",
-      "name": "poison-cloud"
+      "name": "poison-cloud",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "railgun-beam"
+      "name": "railgun-beam",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "red-asterisk"
+      "name": "red-asterisk",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "rocket"
+      "name": "rocket",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "rocket-silo-rocket",
-      "name": "rocket-silo-rocket"
+      "name": "rocket-silo-rocket",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "rocket-silo-rocket-shadow",
-      "name": "rocket-silo-rocket-shadow"
+      "name": "rocket-silo-rocket-shadow",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "root-A"
+      "name": "root-A",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "root-B"
+      "name": "root-B",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "shallow-water-droplet-particle"
+      "name": "shallow-water-droplet-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "shell-particle"
+      "name": "shell-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "shotgun-pellet"
+      "name": "shotgun-pellet",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "slowdown-capsule"
+      "name": "slowdown-capsule",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "sticker",
-      "name": "slowdown-sticker"
+      "name": "slowdown-sticker",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "decorative",
-      "name": "small-ship-wreck-grass"
+      "name": "small-ship-wreck-grass",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "smoke",
-      "name": "smoke-for-migration"
+      "name": "smoke-for-migration",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "stone-particle"
+      "name": "stone-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "sticker",
-      "name": "stun-sticker"
+      "name": "stun-sticker",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "stream",
-      "name": "tank-flamethrower-fire-stream"
+      "name": "tank-flamethrower-fire-stream",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "tile-ghost",
-      "name": "tile-ghost"
+      "name": "tile-ghost",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "flying-text",
-      "name": "tutorial-flying-text"
+      "name": "tile-proxy",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "type": "flying-text",
+      "name": "tree-dying-proxy",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "type": "flying-text",
+      "name": "tree-proxy",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "type": "flying-text",
+      "name": "tutorial-flying-text",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "uranium-cannon-explosion"
+      "name": "uranium-cannon-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "projectile",
-      "name": "uranium-cannon-projectile"
+      "name": "uranium-cannon-projectile",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "uranium-cannon-shell-explosion"
+      "name": "uranium-cannon-shell-explosion",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "explosion",
-      "name": "water-splash"
+      "name": "water-splash",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "particle",
-      "name": "wooden-particle"
+      "name": "wooden-particle",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "container",
-      "name": "bait-chest"
+      "name": "bait-chest",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "electric-pole",
-      "name": "wreck-pole"
+      "name": "wreck-pole",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "resource",
-      "name": "crude-oil"
+      "name": "crude-oil",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "resource",
-      "name": "coal"
+      "name": "coal",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "resource",
-      "name": "copper-ore"
+      "name": "copper-ore",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "resource",
-      "name": "iron-ore"
+      "name": "iron-ore",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "resource",
-      "name": "stone"
+      "name": "stone",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "resource",
-      "name": "uranium-ore"
+      "name": "uranium-ore",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "container",
-      "name": "blue-chest"
+      "name": "blue-chest",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "market",
-      "name": "market"
+      "name": "market",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "electric-energy-interface",
-      "name": "hidden-electric-energy-interface"
+      "name": "hidden-electric-energy-interface",
+      "group": "other",
+      "subgroup": "other"
     },
     {
       "type": "container",
-      "name": "red-chest"
+      "name": "red-chest",
+      "group": "other",
+      "subgroup": "other"
     }
   ],
   "items": [
-    { "name": "wooden-chest" },
-    { "name": "iron-chest" },
-    { "name": "steel-chest" },
-    { "name": "compilatron-chest" },
-    { "name": "storage-tank" },
-    { "name": "transport-belt" },
-    { "name": "fast-transport-belt" },
-    { "name": "express-transport-belt" },
-    { "name": "underground-belt" },
-    { "name": "fast-underground-belt" },
-    { "name": "express-underground-belt" },
-    { "name": "splitter" },
-    { "name": "fast-splitter" },
-    { "name": "express-splitter" },
-    { "name": "loader" },
-    { "name": "fast-loader" },
-    { "name": "express-loader" },
-    { "name": "burner-inserter" },
-    { "name": "inserter" },
-    { "name": "long-handed-inserter" },
-    { "name": "fast-inserter" },
-    { "name": "filter-inserter" },
-    { "name": "stack-inserter" },
-    { "name": "stack-filter-inserter" },
-    { "name": "small-electric-pole" },
-    { "name": "medium-electric-pole" },
-    { "name": "big-electric-pole" },
-    { "name": "substation" },
-    { "name": "pipe" },
-    { "name": "pipe-to-ground" },
-    { "name": "pump" },
-    { "name": "rail" },
-    { "name": "train-stop" },
-    { "name": "rail-signal" },
-    { "name": "rail-chain-signal" },
-    { "name": "locomotive" },
-    { "name": "cargo-wagon" },
-    { "name": "fluid-wagon" },
-    { "name": "artillery-wagon" },
-    { "name": "car" },
-    { "name": "tank" },
-    { "name": "small-plane" },
-    { "name": "logistic-robot" },
-    { "name": "construction-robot" },
-    { "name": "logistic-chest-active-provider" },
-    { "name": "logistic-chest-passive-provider" },
-    { "name": "logistic-chest-storage" },
-    { "name": "logistic-chest-buffer" },
-    { "name": "logistic-chest-requester" },
-    { "name": "roboport" },
-    { "name": "small-lamp" },
-    { "name": "red-wire" },
-    { "name": "green-wire" },
-    { "name": "arithmetic-combinator" },
-    { "name": "decider-combinator" },
-    { "name": "constant-combinator" },
-    { "name": "power-switch" },
-    { "name": "programmable-speaker" },
-    { "name": "stone-brick" },
-    { "name": "concrete" },
-    { "name": "hazard-concrete" },
-    { "name": "refined-concrete" },
-    { "name": "refined-hazard-concrete" },
-    { "name": "landfill" },
-    { "name": "cliff-explosives" },
-    { "name": "dummy-steel-axe" },
-    { "name": "repair-pack" },
-    { "name": "blueprint" },
-    { "name": "deconstruction-planner" },
-    { "name": "upgrade-planner" },
-    { "name": "blueprint-book" },
-    { "name": "copy-paste-tool" },
-    { "name": "cut-paste-tool" },
-    { "name": "boiler" },
-    { "name": "steam-engine" },
-    { "name": "steam-turbine" },
-    { "name": "solar-panel" },
-    { "name": "accumulator" },
-    { "name": "electric-energy-interface" },
-    { "name": "escape-pod-power" },
-    { "name": "heat-interface" },
-    { "name": "nuclear-reactor" },
-    { "name": "heat-exchanger" },
-    { "name": "heat-pipe" },
-    { "name": "burner-mining-drill" },
-    { "name": "electric-mining-drill" },
-    { "name": "offshore-pump" },
-    { "name": "pumpjack" },
-    { "name": "stone-furnace" },
-    { "name": "steel-furnace" },
-    { "name": "electric-furnace" },
-    { "name": "escape-pod-assembler" },
-    { "name": "assembling-machine-1" },
-    { "name": "assembling-machine-2" },
-    { "name": "assembling-machine-3" },
-    { "name": "oil-refinery" },
-    { "name": "chemical-plant" },
-    { "name": "centrifuge" },
-    { "name": "escape-pod-lab" },
-    { "name": "lab" },
-    { "name": "beacon" },
-    { "name": "speed-module" },
-    { "name": "speed-module-2" },
-    { "name": "speed-module-3" },
-    { "name": "effectivity-module" },
-    { "name": "effectivity-module-2" },
-    { "name": "effectivity-module-3" },
-    { "name": "productivity-module" },
-    { "name": "productivity-module-2" },
-    { "name": "productivity-module-3" },
-    { "name": "wood" },
-    { "name": "coal" },
-    { "name": "stone" },
-    { "name": "iron-ore" },
-    { "name": "copper-ore" },
-    { "name": "uranium-ore" },
-    { "name": "raw-fish" },
-    { "name": "iron-plate" },
-    { "name": "copper-plate" },
-    { "name": "solid-fuel" },
-    { "name": "steel-plate" },
-    { "name": "plastic-bar" },
-    { "name": "sulfur" },
-    { "name": "battery" },
-    { "name": "explosives" },
-    { "name": "crude-oil-barrel" },
-    { "name": "heavy-oil-barrel" },
-    { "name": "light-oil-barrel" },
-    { "name": "lubricant-barrel" },
-    { "name": "petroleum-gas-barrel" },
-    { "name": "sulfuric-acid-barrel" },
-    { "name": "water-barrel" },
-    { "name": "copper-cable" },
-    { "name": "pollution" },
-    { "name": "iron-stick" },
-    { "name": "iron-gear-wheel" },
-    { "name": "empty-barrel" },
-    { "name": "electronic-circuit" },
-    { "name": "advanced-circuit" },
-    { "name": "processing-unit" },
-    { "name": "engine-unit" },
-    { "name": "electric-engine-unit" },
-    { "name": "flying-robot-frame" },
-    { "name": "satellite" },
-    { "name": "rocket-control-unit" },
-    { "name": "low-density-structure" },
-    { "name": "rocket-fuel" },
-    { "name": "rocket-part" },
-    { "name": "nuclear-fuel" },
-    { "name": "uranium-235" },
-    { "name": "uranium-238" },
-    { "name": "uranium-fuel-cell" },
-    { "name": "used-up-uranium-fuel-cell" },
-    { "name": "automation-science-pack" },
-    { "name": "logistic-science-pack" },
-    { "name": "military-science-pack" },
-    { "name": "chemical-science-pack" },
-    { "name": "production-science-pack" },
-    { "name": "utility-science-pack" },
-    { "name": "space-science-pack" },
-    { "name": "coin" },
-    { "name": "pistol" },
-    { "name": "submachine-gun" },
-    { "name": "tank-machine-gun" },
-    { "name": "vehicle-machine-gun" },
-    { "name": "tank-flamethrower" },
-    { "name": "shotgun" },
-    { "name": "combat-shotgun" },
-    { "name": "railgun" },
-    { "name": "rocket-launcher" },
-    { "name": "flamethrower" },
-    { "name": "land-mine" },
-    { "name": "artillery-wagon-cannon" },
-    { "name": "tank-cannon" },
-    { "name": "firearm-magazine" },
-    { "name": "piercing-rounds-magazine" },
-    { "name": "uranium-rounds-magazine" },
-    { "name": "shotgun-shell" },
-    { "name": "piercing-shotgun-shell" },
-    { "name": "railgun-dart" },
-    { "name": "cannon-shell" },
-    { "name": "explosive-cannon-shell" },
-    { "name": "uranium-cannon-shell" },
-    { "name": "explosive-uranium-cannon-shell" },
-    { "name": "artillery-shell" },
-    { "name": "rocket" },
-    { "name": "explosive-rocket" },
-    { "name": "atomic-bomb" },
-    { "name": "flamethrower-ammo" },
-    { "name": "grenade" },
-    { "name": "cluster-grenade" },
-    { "name": "poison-capsule" },
-    { "name": "slowdown-capsule" },
-    { "name": "defender-capsule" },
-    { "name": "distractor-capsule" },
-    { "name": "destroyer-capsule" },
-    { "name": "discharge-defense-remote" },
-    { "name": "artillery-targeting-remote" },
-    { "name": "light-armor" },
-    { "name": "heavy-armor" },
-    { "name": "modular-armor" },
-    { "name": "power-armor" },
-    { "name": "power-armor-mk2" },
-    { "name": "solar-panel-equipment" },
-    { "name": "fusion-reactor-equipment" },
-    { "name": "energy-shield-equipment" },
-    { "name": "energy-shield-mk2-equipment" },
-    { "name": "battery-equipment" },
-    { "name": "battery-mk2-equipment" },
-    { "name": "personal-laser-defense-equipment" },
-    { "name": "discharge-defense-equipment" },
-    { "name": "belt-immunity-equipment" },
-    { "name": "exoskeleton-equipment" },
-    { "name": "personal-roboport-equipment" },
-    { "name": "personal-roboport-mk2-equipment" },
-    { "name": "night-vision-equipment" },
-    { "name": "stone-wall" },
-    { "name": "gate" },
-    { "name": "gun-turret" },
-    { "name": "laser-turret" },
-    { "name": "flamethrower-turret" },
-    { "name": "artillery-turret" },
-    { "name": "radar" },
-    { "name": "rocket-silo" },
-    { "name": "computer" },
-    { "name": "player-port" },
-    { "name": "selection-tool" },
-    { "name": "item-with-inventory" },
-    { "name": "item-with-label" },
-    { "name": "item-with-tags" },
-    { "name": "simple-entity-with-force" },
-    { "name": "simple-entity-with-owner" },
-    { "name": "infinity-chest" },
-    { "name": "infinity-pipe" }
+    {
+      "name": "wooden-chest",
+      "group": "logistics",
+      "subgroup": "storage"
+    },
+    {
+      "name": "iron-chest",
+      "group": "logistics",
+      "subgroup": "storage"
+    },
+    {
+      "name": "steel-chest",
+      "group": "logistics",
+      "subgroup": "storage"
+    },
+    {
+      "name": "compilatron-chest",
+      "group": "logistics",
+      "subgroup": "storage"
+    },
+    {
+      "name": "storage-tank",
+      "group": "logistics",
+      "subgroup": "storage"
+    },
+    {
+      "name": "transport-belt",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "fast-transport-belt",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "express-transport-belt",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "underground-belt",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "fast-underground-belt",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "express-underground-belt",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "splitter",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "fast-splitter",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "express-splitter",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "loader",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "fast-loader",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "express-loader",
+      "group": "logistics",
+      "subgroup": "belt"
+    },
+    {
+      "name": "burner-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
+    },
+    {
+      "name": "inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
+    },
+    {
+      "name": "long-handed-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
+    },
+    {
+      "name": "fast-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
+    },
+    {
+      "name": "filter-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
+    },
+    {
+      "name": "stack-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
+    },
+    {
+      "name": "stack-filter-inserter",
+      "group": "logistics",
+      "subgroup": "inserter"
+    },
+    {
+      "name": "small-electric-pole",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
+    },
+    {
+      "name": "medium-electric-pole",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
+    },
+    {
+      "name": "big-electric-pole",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
+    },
+    {
+      "name": "substation",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
+    },
+    {
+      "name": "pipe",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
+    },
+    {
+      "name": "pipe-to-ground",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
+    },
+    {
+      "name": "pump",
+      "group": "logistics",
+      "subgroup": "energy-pipe-distribution"
+    },
+    {
+      "name": "rail",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "train-stop",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "rail-signal",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "rail-chain-signal",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "locomotive",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "cargo-wagon",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "fluid-wagon",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "artillery-wagon",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "car",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "tank",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "small-plane",
+      "group": "logistics",
+      "subgroup": "transport"
+    },
+    {
+      "name": "logistic-robot",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "construction-robot",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "logistic-chest-active-provider",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "logistic-chest-passive-provider",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "logistic-chest-storage",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "logistic-chest-buffer",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "logistic-chest-requester",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "roboport",
+      "group": "logistics",
+      "subgroup": "logistic-network"
+    },
+    {
+      "name": "small-lamp",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "red-wire",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "green-wire",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "arithmetic-combinator",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "decider-combinator",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "constant-combinator",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "power-switch",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "programmable-speaker",
+      "group": "logistics",
+      "subgroup": "circuit-network"
+    },
+    {
+      "name": "stone-brick",
+      "group": "logistics",
+      "subgroup": "terrain"
+    },
+    {
+      "name": "concrete",
+      "group": "logistics",
+      "subgroup": "terrain"
+    },
+    {
+      "name": "hazard-concrete",
+      "group": "logistics",
+      "subgroup": "terrain"
+    },
+    {
+      "name": "refined-concrete",
+      "group": "logistics",
+      "subgroup": "terrain"
+    },
+    {
+      "name": "refined-hazard-concrete",
+      "group": "logistics",
+      "subgroup": "terrain"
+    },
+    {
+      "name": "landfill",
+      "group": "logistics",
+      "subgroup": "terrain"
+    },
+    {
+      "name": "cliff-explosives",
+      "group": "logistics",
+      "subgroup": "terrain"
+    },
+    {
+      "name": "dummy-steel-axe",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "repair-pack",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "blueprint",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "deconstruction-planner",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "upgrade-planner",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "blueprint-book",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "copy-paste-tool",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "cut-paste-tool",
+      "group": "production",
+      "subgroup": "tool"
+    },
+    {
+      "name": "boiler",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "steam-engine",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "steam-turbine",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "solar-panel",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "accumulator",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "electric-energy-interface",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "heat-interface",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "nuclear-reactor",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "heat-exchanger",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "heat-pipe",
+      "group": "production",
+      "subgroup": "energy"
+    },
+    {
+      "name": "burner-mining-drill",
+      "group": "production",
+      "subgroup": "extraction-machine"
+    },
+    {
+      "name": "electric-mining-drill",
+      "group": "production",
+      "subgroup": "extraction-machine"
+    },
+    {
+      "name": "offshore-pump",
+      "group": "production",
+      "subgroup": "extraction-machine"
+    },
+    {
+      "name": "pumpjack",
+      "group": "production",
+      "subgroup": "extraction-machine"
+    },
+    {
+      "name": "stone-furnace",
+      "group": "production",
+      "subgroup": "smelting-machine"
+    },
+    {
+      "name": "steel-furnace",
+      "group": "production",
+      "subgroup": "smelting-machine"
+    },
+    {
+      "name": "electric-furnace",
+      "group": "production",
+      "subgroup": "smelting-machine"
+    },
+    {
+      "name": "escape-pod-assembler",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "assembling-machine-1",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "assembling-machine-2",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "assembling-machine-3",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "oil-refinery",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "chemical-plant",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "centrifuge",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "escape-pod-lab",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "lab",
+      "group": "production",
+      "subgroup": "production-machine"
+    },
+    {
+      "name": "beacon",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "speed-module",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "speed-module-2",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "speed-module-3",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "effectivity-module",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "effectivity-module-2",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "effectivity-module-3",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "productivity-module",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "productivity-module-2",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "productivity-module-3",
+      "group": "production",
+      "subgroup": "module"
+    },
+    {
+      "name": "wood",
+      "group": "intermediate-products",
+      "subgroup": "raw-resource"
+    },
+    {
+      "name": "coal",
+      "group": "intermediate-products",
+      "subgroup": "raw-resource"
+    },
+    {
+      "name": "stone",
+      "group": "intermediate-products",
+      "subgroup": "raw-resource"
+    },
+    {
+      "name": "iron-ore",
+      "group": "intermediate-products",
+      "subgroup": "raw-resource"
+    },
+    {
+      "name": "copper-ore",
+      "group": "intermediate-products",
+      "subgroup": "raw-resource"
+    },
+    {
+      "name": "uranium-ore",
+      "group": "intermediate-products",
+      "subgroup": "raw-resource"
+    },
+    {
+      "name": "raw-fish",
+      "group": "intermediate-products",
+      "subgroup": "raw-resource"
+    },
+    {
+      "name": "iron-plate",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "copper-plate",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "solid-fuel",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "steel-plate",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "plastic-bar",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "sulfur",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "battery",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "explosives",
+      "group": "intermediate-products",
+      "subgroup": "raw-material"
+    },
+    {
+      "name": "crude-oil-barrel",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
+    },
+    {
+      "name": "heavy-oil-barrel",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
+    },
+    {
+      "name": "light-oil-barrel",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
+    },
+    {
+      "name": "lubricant-barrel",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
+    },
+    {
+      "name": "petroleum-gas-barrel",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
+    },
+    {
+      "name": "sulfuric-acid-barrel",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
+    },
+    {
+      "name": "water-barrel",
+      "group": "intermediate-products",
+      "subgroup": "fill-barrel"
+    },
+    {
+      "name": "copper-cable",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "pollution",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "iron-stick",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "iron-gear-wheel",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "empty-barrel",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "electronic-circuit",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "advanced-circuit",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "processing-unit",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "engine-unit",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "electric-engine-unit",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "flying-robot-frame",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "satellite",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "rocket-control-unit",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "low-density-structure",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "rocket-fuel",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "rocket-part",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "nuclear-fuel",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "uranium-235",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "uranium-238",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "uranium-fuel-cell",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "used-up-uranium-fuel-cell",
+      "group": "intermediate-products",
+      "subgroup": "intermediate-product"
+    },
+    {
+      "name": "automation-science-pack",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "logistic-science-pack",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "military-science-pack",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "chemical-science-pack",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "production-science-pack",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "utility-science-pack",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "space-science-pack",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "coin",
+      "group": "intermediate-products",
+      "subgroup": "science-pack"
+    },
+    {
+      "name": "pistol",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "submachine-gun",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "tank-machine-gun",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "vehicle-machine-gun",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "tank-flamethrower",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "shotgun",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "combat-shotgun",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "railgun",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "rocket-launcher",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "flamethrower",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "land-mine",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "artillery-wagon-cannon",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "tank-cannon",
+      "group": "combat",
+      "subgroup": "gun"
+    },
+    {
+      "name": "firearm-magazine",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "piercing-rounds-magazine",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "uranium-rounds-magazine",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "shotgun-shell",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "piercing-shotgun-shell",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "railgun-dart",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "cannon-shell",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "explosive-cannon-shell",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "uranium-cannon-shell",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "explosive-uranium-cannon-shell",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "artillery-shell",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "rocket",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "explosive-rocket",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "atomic-bomb",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "flamethrower-ammo",
+      "group": "combat",
+      "subgroup": "ammo"
+    },
+    {
+      "name": "grenade",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "cluster-grenade",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "poison-capsule",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "slowdown-capsule",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "defender-capsule",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "distractor-capsule",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "destroyer-capsule",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "discharge-defense-remote",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "artillery-targeting-remote",
+      "group": "combat",
+      "subgroup": "capsule"
+    },
+    {
+      "name": "light-armor",
+      "group": "combat",
+      "subgroup": "armor"
+    },
+    {
+      "name": "heavy-armor",
+      "group": "combat",
+      "subgroup": "armor"
+    },
+    {
+      "name": "modular-armor",
+      "group": "combat",
+      "subgroup": "armor"
+    },
+    {
+      "name": "power-armor",
+      "group": "combat",
+      "subgroup": "armor"
+    },
+    {
+      "name": "power-armor-mk2",
+      "group": "combat",
+      "subgroup": "armor"
+    },
+    {
+      "name": "solar-panel-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "fusion-reactor-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "energy-shield-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "energy-shield-mk2-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "battery-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "battery-mk2-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "personal-laser-defense-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "discharge-defense-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "belt-immunity-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "exoskeleton-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "personal-roboport-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "personal-roboport-mk2-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "night-vision-equipment",
+      "group": "combat",
+      "subgroup": "equipment"
+    },
+    {
+      "name": "stone-wall",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "gate",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "gun-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "laser-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "flamethrower-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "artillery-turret",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "radar",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "rocket-silo",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "computer",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "player-port",
+      "group": "combat",
+      "subgroup": "defensive-structure"
+    },
+    {
+      "name": "selection-tool",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "item-with-inventory",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "item-with-label",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "item-with-tags",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "simple-entity-with-force",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "simple-entity-with-owner",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "infinity-chest",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "infinity-pipe",
+      "group": "other",
+      "subgroup": "other"
+    },
+    {
+      "name": "escape-pod-power",
+      "group": "other",
+      "subgroup": "other"
+    }
+  ],
+  "fluids": [
+    {
+      "name": "water",
+      "group": "fluids",
+      "subgroup": "fluid"
+    },
+    {
+      "name": "crude-oil",
+      "group": "fluids",
+      "subgroup": "fluid"
+    },
+    {
+      "name": "steam",
+      "group": "fluids",
+      "subgroup": "fluid"
+    },
+    {
+      "name": "heavy-oil",
+      "group": "fluids",
+      "subgroup": "fluid"
+    },
+    {
+      "name": "light-oil",
+      "group": "fluids",
+      "subgroup": "fluid"
+    },
+    {
+      "name": "petroleum-gas",
+      "group": "fluids",
+      "subgroup": "fluid"
+    },
+    {
+      "name": "sulfuric-acid",
+      "group": "fluids",
+      "subgroup": "fluid"
+    },
+    {
+      "name": "lubricant",
+      "group": "fluids",
+      "subgroup": "fluid"
+    }
   ]
 }

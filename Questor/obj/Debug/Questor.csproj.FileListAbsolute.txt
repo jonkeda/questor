@@ -30,3 +30,12 @@ C:\Repos\Questor\Questor\obj\Debug\UI\Resources\Styles.baml
 C:\Repos\Questor\Questor\obj\Debug\Views\Other\ProgressWindow.baml
 C:\Repos\Questor\Questor\obj\Debug\Views\Quests\QuestView.g.cs
 C:\Repos\Questor\Questor\obj\Debug\Views\Quests\QuestView.baml
+C:\Repos\Questor\Questor\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\Questor\Questor\bin\Debug\Newtonsoft.Json.pdb
+C:\Repos\Questor\Questor\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\Questor\Questor\obj\Debug\Views\Other\SelectDataWindow.g.cs
+C:\Repos\Questor\Questor\obj\Debug\Views\Other\SelectDataWindow.baml
+C:\Repos\Questor\Questor\obj\Debug\Views\Other\SelectDataView.g.cs
+C:\Repos\Questor\Questor\obj\Debug\Views\Other\SelectDataView.baml
+C:\Repos\Questor\Questor\obj\Debug\Views\Quests\CreateQuestLineWindow.g.cs
+C:\Repos\Questor\Questor\obj\Debug\Views\Quests\CreateQuestLineWindow.baml

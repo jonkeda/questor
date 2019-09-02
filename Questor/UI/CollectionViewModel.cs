@@ -23,6 +23,11 @@ namespace Questor.UI
             Models.Add(new I());
         }
 
+        public virtual void Create()
+        {
+            
+        }
+
         public virtual void Delete()
         {
         }
@@ -96,7 +101,7 @@ namespace Questor.UI
 
         public IList ParentCollection { get; set; }
 
-        public bool IsExanded { get; set; } = true;
+        public bool IsExpanded { get; set; }
 
         private bool _isValid;        
         public bool IsValid

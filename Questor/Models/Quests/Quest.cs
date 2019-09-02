@@ -1,4 +1,6 @@
-﻿using Questor.Generators;
+﻿using System.Linq;
+using System.Xml.Serialization;
+using Questor.Generators;
 
 namespace Questor.Models.Quests
 {
@@ -12,6 +14,7 @@ namespace Questor.Models.Quests
         private string _name;
         private string _description;
 
+        [XmlAttribute]
         public string Name
         {
             get { return _name; }
@@ -19,6 +22,7 @@ namespace Questor.Models.Quests
         }
 
         private string _title;
+        [XmlAttribute]
         public string Title
         {
             get { return _title; }
@@ -46,7 +50,7 @@ namespace Questor.Models.Quests
             cw.OpenLine();
 
             cw.AddField("name", Name);
-            cw.AddField("title", Title);
+            cw.AddFieldObject("title",  CreateTitle());
 
             cw.AddField("description", Description);
 
@@ -55,6 +59,21 @@ namespace Questor.Models.Quests
             cw.AddModels("rewards", Rewards);
 
             cw.Close();
+        }
+
+        private string CreateTitle()
+        {
+            if (!string.IsNullOrEmpty(Title))
+            {
+                return $@"""{Title}""";
+            }
+            Goal goal = Goals.FirstOrDefault();
+            if (goal == null)
+            {
+                return null;
+            }
+
+            return goal.CreateTitle();
         }
     }
 }

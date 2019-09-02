@@ -15,7 +15,7 @@
         ShowInTaskbar="False"
         ShowMaxRestoreButton="False"
         WindowStartupLocation="CenterOwner"
-        Icon="../../Images/scraper.png"
+        Icon="../../Images/Factorio.png"
         Title="Progress">
     <Grid>
         <Grid.RowDefinitions>

@@ -33,6 +33,13 @@ namespace Questor.UI
             set { SetProperty(ref _isValid, value); }
         }
 
+        private bool _isExpanded;        
+        public bool IsExpanded
+        {
+            get { return _isExpanded; }
+            set { SetProperty(ref _isExpanded, value); }
+        }
+
         private TM _model;
         public TM Model
         {
@@ -67,16 +74,20 @@ namespace Questor.UI
         }
 
         public IList ParentCollection { get; set; }
-        public bool IsExanded { get; set; } = true;
         public ViewModel Parent { get; set; }
         public TCtx ViewModelContext { get; set; }
 
-        public void Insert()
+        public virtual void Insert()
         {
             
         }
 
-        public void Delete()
+        public virtual void Create()
+        {
+            
+        }
+
+        public virtual void Delete()
         {
             ParentCollection.Remove(Model);
         }

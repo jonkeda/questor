@@ -1,7 +1,4 @@
-﻿using System.Windows.Controls;
-
-
-namespace Questor.Views.Quests
+﻿namespace Questor.Views.Quests
 {
     public partial class QuestView
     {

@@ -1,4 +1,5 @@
 ﻿using Questor.Models.Quests;
+using Questor.Views.Quests;
 
 namespace Questor.ViewModels.Quests
 {
@@ -39,6 +40,7 @@ namespace Questor.ViewModels.Quests
 
             return isValid;
         }
+
 
     }
 }

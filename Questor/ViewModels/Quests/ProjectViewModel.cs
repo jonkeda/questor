@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Questor.Models.Quests;
 using Questor.UI;
 
@@ -12,7 +11,7 @@ namespace Questor.ViewModels.Quests
 
         public ProjectViewModel(Project model) : base(model)
         {
-
+            IsExpanded = true;
         }
 
         private ModCollectionViewModel _modCollectionViewModel;

@@ -4,8 +4,11 @@ using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using Microsoft.Win32;
+using Newtonsoft.Json;
 using Questor.Extensions;
 using Questor.Generators;
+using Questor.Models.Other;
+using Questor.Models.Prototypes;
 using Questor.Models.Quests;
 using Questor.UI;
 using Questor.ViewModels.Quests;
@@ -17,6 +20,7 @@ namespace Questor.ViewModels
         private ProjectViewModel _project;
         private ViewModel _selectedItem;
         private string _filename;
+        private Data _data;
 
         public MainViewModel()
         {
@@ -83,7 +87,29 @@ namespace Questor.ViewModels
                 }
             }
         }
+        
+        public ICommand LoadDataCommand
+        {
+            get { return new TargetCommand(LoadData); }
+        }
 
+        private void LoadData()
+        {
+            OpenFileDialog ofd = new OpenFileDialog
+            {
+                DefaultExt = ".json",
+                Filter = "Json|*.Json"
+            };
+            if (ofd.ShowDialog() == true)
+            {
+                string json = File.ReadAllText(ofd.FileName);
+
+                DataPrototypes dataPrototypes = JsonConvert.DeserializeObject<DataPrototypes>(json);
+
+                Project.Model.Data = new Data(dataPrototypes);
+            }
+
+        }
         public ICommand InsertCommand
         {
             get { return new TargetCommand(Insert); }
@@ -93,6 +119,17 @@ namespace Questor.ViewModels
         {
             IEditModel editModel = SelectedItem as IEditModel;
             editModel?.Insert();
+        }
+
+        public ICommand CreateCommand
+        {
+            get { return new TargetCommand(Create, false); }
+        }
+
+        private void Create()
+        {
+            IEditModel editModel = SelectedItem as IEditModel;
+            editModel?.Create();
         }
 
         public ICommand EditCommand

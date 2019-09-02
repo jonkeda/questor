@@ -1,4 +1,5 @@
-﻿using Questor.Generators;
+﻿using System.Xml.Serialization;
+using Questor.Generators;
 
 namespace Questor.Models.Quests
 {
@@ -7,20 +8,23 @@ namespace Questor.Models.Quests
 
         private string _functionName;
         private string _value;
-        private int _amount;
+        private int _amount = 1;
 
+        [XmlAttribute]
         public string FunctionName
         {
             get { return _functionName; }
             set { SetProperty(ref _functionName, value); }
         }
 
+        [XmlAttribute]
         public string Value
         {
             get { return _value; }
             set { SetProperty(ref _value, value); }
         }
 
+        [XmlAttribute]
         public int Amount
         {
             get { return _amount; }

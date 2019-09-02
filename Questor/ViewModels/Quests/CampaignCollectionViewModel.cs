@@ -6,6 +6,7 @@ namespace Questor.ViewModels.Quests
     {
         public CampaignCollectionViewModel(CampaignCollection models) : base(models)
         {
+            IsExpanded = true;
         }
     }
 }

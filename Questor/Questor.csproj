@@ -45,6 +45,9 @@
     <Reference Include="MahApps.Metro, Version=1.6.5.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.6.5\lib\net47\MahApps.Metro.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -73,11 +76,19 @@
     <Compile Include="Generators\LuaCodeWriter.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Contexts\CampaignContext.cs" />
+    <Compile Include="Models\Other\DataItemCollection.cs" />
+    <Compile Include="Models\Other\Data.cs" />
+    <Compile Include="Models\Other\DataItem.cs" />
+    <Compile Include="Models\Prototypes\DataPrototypes.cs" />
+    <Compile Include="Models\Prototypes\DataProtype.cs" />
+    <Compile Include="Models\Prototypes\DataProtypeCollection.cs" />
     <Compile Include="Models\Prototypes\DataType.cs" />
     <Compile Include="Models\Prototypes\Force.cs" />
     <Compile Include="Models\Prototypes\ForceCollection.cs" />
     <Compile Include="Models\Prototypes\Player.cs" />
     <Compile Include="Models\Prototypes\PlayerCollection.cs" />
+    <Compile Include="Models\Prototypes\Recipe.cs" />
+    <Compile Include="Models\Prototypes\RecipeCollection.cs" />
     <Compile Include="Models\Prototypes\Technology.cs" />
     <Compile Include="Models\Prototypes\Entity.cs" />
     <Compile Include="Models\Prototypes\EntityCollection.cs" />
@@ -194,9 +205,11 @@
     <Compile Include="UI\ViewModelCollection.cs" />
     <Compile Include="ViewModels\IEditModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\Other\SelectDataViewModel.cs" />
     <Compile Include="ViewModels\Other\ProgressViewModel.cs" />
     <Compile Include="ViewModels\Quests\CampaignCollectionViewModel.cs" />
     <Compile Include="ViewModels\Quests\CampaignViewModel.cs" />
+    <Compile Include="ViewModels\Quests\CreateQuestLineViewModel.cs" />
     <Compile Include="ViewModels\Quests\ModViewModel.cs" />
     <Compile Include="ViewModels\Quests\CollectionViewModel.cs" />
     <Compile Include="ViewModels\Quests\DependencyCollectionViewModel.cs" />
@@ -216,6 +229,15 @@
     <Compile Include="ViewModels\Quests\ViewModel.cs" />
     <Compile Include="Views\Other\ProgressWindow.xaml.cs">
       <DependentUpon>ProgressWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Other\SelectDataView.xaml.cs">
+      <DependentUpon>SelectDataView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Other\SelectDataWindow.xaml.cs">
+      <DependentUpon>SelectDataWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Quests\CreateQuestLineWindow.xaml.cs">
+      <DependentUpon>CreateQuestLineWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Quests\QuestView.xaml.cs">
       <DependentUpon>QuestView.xaml</DependentUpon>
@@ -250,6 +272,18 @@
     <Page Include="Views\Other\ProgressWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Other\SelectDataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Other\SelectDataWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Quests\CreateQuestLineWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Quests\QuestView.xaml">
       <SubType>Designer</SubType>

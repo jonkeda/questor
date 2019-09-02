@@ -1,7 +1,10 @@
-﻿using Questor.UI;
+﻿using System.Diagnostics;
+using Newtonsoft.Json;
+using Questor.UI;
 
 namespace Questor.Models.Prototypes
 {
+    [DebuggerDisplay("{Name}")]
     public class Item : PropertyNotifier
     {
         public Item()
@@ -14,6 +17,7 @@ namespace Questor.Models.Prototypes
         }
 
         private string _name;
+        [JsonProperty("name")]
         public string Name
         {
             get { return _name; }

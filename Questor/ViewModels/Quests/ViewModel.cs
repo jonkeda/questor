@@ -17,4 +17,5 @@ namespace Questor.ViewModels.Quests
 
 
     }
+
 }

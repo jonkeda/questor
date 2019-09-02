@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Linq;
 using Questor.Models.Contexts;
+using Questor.Models.Other;
 using Questor.Models.Quests;
 
 namespace Questor.ViewModels.Quests
@@ -28,18 +29,17 @@ namespace Questor.ViewModels.Quests
             set
             {
                 Model.FunctionName = value?.Name;
-                NotifyPropertyChanged(nameof(Values));
+                NotifyPropertyChanged(nameof(Function));
+                NotifyPropertyChanged(nameof(Data));
                 NotifyPropertyChanged(nameof(Title));
             }
         }
         
-        public IEnumerable<string> Values
+        public Data Data
         {
-            get
-            {
-                return CampaignContext.GetValues(Function?.DataType);
-            }
+            get { return CampaignContext.Data; }
         }
+
 
         public string Title
         {

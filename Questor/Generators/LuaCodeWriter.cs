@@ -1,9 +1,7 @@
 ﻿using System.Collections;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using Questor.Models;
-using Questor.Models.Quests;
 
 namespace Questor.Generators
 {
@@ -219,6 +217,23 @@ namespace Questor.Generators
 
             return false;
         }
+
+        public bool AddFieldObject(string name, string value)
+        {
+            if (!string.IsNullOrEmpty(name)
+                && !string.IsNullOrEmpty(value))
+            {
+                AddName(name, false);
+                _sb.Append(@" = ");
+                AddValue(value);
+                _sb.AppendLine(",");
+
+                return true;
+            }
+
+            return false;
+        }
+
 
         public bool AddField(string name, int value)
         {

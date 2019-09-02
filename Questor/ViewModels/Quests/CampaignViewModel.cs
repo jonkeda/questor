@@ -10,11 +10,13 @@ namespace Questor.ViewModels.Quests
         private bool _titleIsValid;
         private bool _descriptionIsValid;
 
-        public CampaignViewModel() : base(new Campaign())
+        public CampaignViewModel() : this(new Campaign())
         {}
 
         public CampaignViewModel(Campaign model) : base(model)
-        {}
+        {
+            IsExpanded = true;
+        }
 
         private QuestLineCollectionViewModel _questLineCollectionViewModel;
         public QuestLineCollectionViewModel QuestLineCollectionViewModel

@@ -1,5 +1,4 @@
-﻿using System.Xml.Serialization;
-using Questor.Generators;
+﻿using Questor.Generators;
 using Questor.UI;
 
 namespace Questor.Models

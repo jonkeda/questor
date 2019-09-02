@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Repos\Questor\Questor\App.xaml
-4-1345320110
+7735026885
 
-184-155419934
-17-80084837
-MainWindow.xaml;UI\Resources\Styles.xaml;Views\Other\ProgressWindow.xaml;Views\Quests\QuestView.xaml;
+201-147344745
+18-924830364
+MainWindow.xaml;UI\Resources\Styles.xaml;Views\Other\ProgressWindow.xaml;Views\Other\SelectDataView.xaml;Views\Other\SelectDataWindow.xaml;Views\Quests\CreateQuestLineWindow.xaml;Views\Quests\QuestView.xaml;
 
-False
+True
 

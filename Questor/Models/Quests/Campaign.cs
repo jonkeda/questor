@@ -1,4 +1,5 @@
-﻿using Questor.Generators;
+﻿using System.Xml.Serialization;
+using Questor.Generators;
 
 namespace Questor.Models.Quests
 {
@@ -12,6 +13,7 @@ namespace Questor.Models.Quests
 
         private string _name;
         private string _description;
+        [XmlAttribute]
         public string Name
         {
             get { return _name; }
@@ -19,6 +21,7 @@ namespace Questor.Models.Quests
         }
 
         private string _title;
+        [XmlAttribute]
         public string Title
         {
             get { return _title; }
@@ -40,7 +43,7 @@ namespace Questor.Models.Quests
             cw.OpenLine();
 
             cw.AddField("name", Name);
-            cw.AddField("title", Title);
+            cw.AddField("title",  string.IsNullOrEmpty(Title) ? Name : Title);
             cw.AddField("description", Description);
 
             cw.AddModels("questLines", QuestLines);

@@ -8,9 +8,11 @@
         xmlns:controls="clr-namespace:Questor.UI.Controls"
         xmlns:quests="clr-namespace:Questor.ViewModels.Quests"
         xmlns:converters="clr-namespace:Questor.UI.Converters"
+        xmlns:other="clr-namespace:Questor.Views.Other"
         mc:Ignorable="d"
         Icon="Images/Factorio.png"
         d:DataContext="{d:DesignInstance IsDesignTimeCreatable=false, Type={x:Type viewModel:MainViewModel}}"
+        WindowState="Maximized"
         Title="Questor for Factorio" Height="450" Width="800">
 
     <Grid>
@@ -25,7 +27,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Campaign" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/>
+        <!-- <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Campaign" Style="{StaticResource MetroHeader}" HorizontalAlignment="Stretch"/> -->
 
         <Grid Grid.Row="2" Grid.Column="0" >
             <Grid.RowDefinitions>
@@ -44,10 +46,12 @@
 
                 <Button Content="Generate" Command="{Binding GenerateCommand}" />
 
+                <Button Content="Load data" Command="{Binding LoadDataCommand}" />
             </StackPanel>
 
             <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
                 <Button Content="Insert" Command="{Binding InsertCommand}"/>
+                <Button Content="Create" Command="{Binding CreateCommand}"/>
                 <Button Content="Delete" Command="{Binding DeleteCommand}"/>
             </StackPanel>
             
@@ -56,7 +60,7 @@
                                   Command="{Binding EditCommand}">
                 <TreeView.ItemContainerStyle>
                     <Style TargetType="{x:Type TreeViewItem}">
-                        <Setter Property="IsExpanded" Value="True"/>
+                        <Setter Property="IsExpanded" Value="{Binding IsExpanded}"/>
                     </Style>
                 </TreeView.ItemContainerStyle>
                 <controls:TreeViewEx.Resources>
@@ -366,7 +370,9 @@
                                       DisplayMemberPath="Description"  />
 
                             <Label Content="Values" Style="{StaticResource MetroLabel}"  />
-                            <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
+                            <other:SelectDataView SelectedValue="{Binding Model.Value, Mode=TwoWay}" 
+                                                  Data="{Binding Data}" 
+                                                  DataType="{Binding Function.DataType}" />
 
                             <Label Content="Amount" Style="{StaticResource MetroLabel}"  />
                             <mah:NumericUpDown Value="{Binding Model.Amount}"/>
@@ -375,7 +381,6 @@
 
                     </Grid>
                 </DataTemplate>
-
 
                 <DataTemplate DataType="{x:Type quests:GoalCollectionViewModel}">
                     <Grid>
@@ -400,13 +405,15 @@
 
                         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400">
                             
-                            <Label Content="Function" Style="{StaticResource MetroLabel}"  />
+                            <Label Content="Goal Function" Style="{StaticResource MetroLabel}"  />
                             <ComboBox ItemsSource="{Binding Functions}"  
                                       SelectedItem="{Binding Function}"
                                       DisplayMemberPath="Description"  />
 
                             <Label Content="Values" Style="{StaticResource MetroLabel}"  />
-                            <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
+                            <other:SelectDataView SelectedValue="{Binding Model.Value, Mode=TwoWay}" 
+                                                  Data="{Binding Data}" 
+                                                  DataType="{Binding Function.DataType}" />
 
                             <Label Content="Amount" Style="{StaticResource MetroLabel}"  />
                             <mah:NumericUpDown Value="{Binding Model.Amount}"/>
@@ -445,7 +452,9 @@
                                       DisplayMemberPath="Description"  />
 
                             <Label Content="Values" Style="{StaticResource MetroLabel}"  />
-                            <ComboBox ItemsSource="{Binding Values}" SelectedValue="{Binding Model.Value}" />
+                            <other:SelectDataView SelectedValue="{Binding Model.Value, Mode=TwoWay}" 
+                                                  Data="{Binding Data}" 
+                                                  DataType="{Binding Function.DataType}" />
 
                             <Label Content="Amount" Style="{StaticResource MetroLabel}"  />
                             <mah:NumericUpDown Value="{Binding Model.Amount}"/>

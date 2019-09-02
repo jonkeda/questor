@@ -4,4 +4,7 @@ FC:\Repos\Questor\Questor\MainWindow.xaml;;
 FC:\Repos\Questor\Questor\UI\Resources\Styles.xaml;;
 FC:\Repos\Questor\Questor\Views\Other\ProgressWindow.xaml;;
 FC:\Repos\Questor\Questor\Views\Quests\QuestView.xaml;;
+FC:\Repos\Questor\Questor\Views\Other\SelectDataWindow.xaml;;
+FC:\Repos\Questor\Questor\Views\Other\SelectDataView.xaml;;
+FC:\Repos\Questor\Questor\Views\Quests\CreateQuestLineWindow.xaml;;
 
